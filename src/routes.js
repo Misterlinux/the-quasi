@@ -3,7 +3,6 @@ import blog from '@/components/blog'
 import services from '@/components/services'
 import forth from '@/components/details'
 
-
 const routes= [
       {path: '/', name: 'first',component: pagina},
       {path: '/blog', name: 'second',component: blog},

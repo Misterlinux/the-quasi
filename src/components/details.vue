@@ -9,6 +9,9 @@
     </div>
 
     <h3>the product id is :{{ proId }}</h3>
+    <button v:on:click='this.$router.go(-1)'
+        type="button" class="btn btn-primary"> minus 1
+    </button>
    <h1 class="text-primary text-center">{{title}}</h1>
 
 
@@ -36,6 +39,6 @@
         }
       ]
    }
-  }
+  },
  }
 </script>
