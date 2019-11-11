@@ -1,0 +1,213 @@
+/* more general css properties */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    margin-top: 80px;
+  
+    position: relative;
+    width: 100%;
+    min-height: 30rem;
+  
+    background: linear-gradient(to bottom bottom,#a72222  0%, #c94b48 25%,#ff8a8a 50%, #c94b48 75%, #a72222 100%), url("../assets/case.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.home{
+    margin-top: -30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    background: linear-gradient(to bottom right,rgba(156, 76, 76, 0.7) 0%, rgba(179, 99, 99, 0.7) 30%, rgba(179, 99, 99, 0.7) 70%, rgba(156, 76, 76, 0.7) 100%), url("../assets/minicity.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.navbar{  
+    background: #a72222;
+}
+
+.navbar li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    border-right: 1px solid red;
+}
+  
+.navbar li:last-child{
+    border-right: none;
+}
+  
+.navbar li a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: block;
+}
+  
+.navbar li a .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto 7px;
+    overflow: hidden;
+}
+  
+.navbar li a .icon .far {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 28px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+  
+.navbar li a .icon .fas{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 28px;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+  
+.navbar li a:hover .icon .fas{
+    transform: translateY(-100%); 
+}
+  
+.navbar li a:hover .icon .far{
+    transform: translateY(-100%); 
+}
+  
+.navbar li a:hover .icon .far:last-child{
+    color: #ff8a8a;
+}
+  
+.navbar li a:hover .icon .fas:last-child{
+    color: #ff8a8a;
+}
+  
+.navbar li a .name{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+  
+.navbar li a .name span{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: #ff8a8a;
+    line-height: 20px;
+    transition: 0.3s;
+}
+  
+.navbar li a .name span:before{
+    content:attr(data-text);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+}
+  
+.navbar li a:hover .name span{
+    transform: translateY(100%);
+}
+
+.navbar-toggler .fa-server{
+    font-size: 28px;
+}
+
+/* CSS for the Footer*/
+
+.footer{
+    padding-top: 15px;
+    width: 100%;
+    background: #a72222;
+    color: #fff;
+}
+.footer-title{
+	position: relative;
+    color: #fff;
+	font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid red;
+}
+.footer-title:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -5px;
+	width: 30px;
+	height: 4px;
+	background: #ff304d;
+}
+
+.footer-links a{
+	padding: 10px 0;
+	border-bottom: 1px solid #df7384;
+	color: #fff;
+	display: block;
+    transition: color 0.5s ease-in-out;
+    text-decoration:none;
+}
+.footer-links a:hover{
+	color: #ff8a8a;
+}
+
+.footer-social-links .footer-bottom{
+    display: block;
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+.footer-social-links a{
+	width: 70px;
+	height: 70px;
+	font-size: 36px;
+	float: left;
+    margin-right: 10px;
+	border: 1px solid red;
+	border-radius: 50px;
+	text-align: center;
+	color: #fff;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.5s ease-in-out;
+  background:  white;
+}
+.footer-social-links a:hover{
+	background: #ff304d;
+}
+
+.footer-bottom a .fab{
+    margin-top: 18%;
+    font-size: 42px;
+    color: #ff304d;
+}
+
+.footer-bottom1 a .fab{
+    margin-top: 18%;
+    font-size: 42px;
+    color: #ff304d;
+}
+
+.footer-social-links a .fab:hover{
+    color: white;
+}
+
+/* here it finishes the footer*/

@@ -1,7 +1,9 @@
 <template>
  <div>
     <h1>{{ title }}</h1>
-    <a style="cursor: pointer; text-decoration: underline" v-on:click="navigate()">Navigate to Page1</a>
+    <button type="button" class="btn btn-primary" v-on:click="navigate()"> 
+        minus 1
+    </button>
  </div>
 </template>
 <script>
@@ -9,7 +11,7 @@
    name:'services',
     data (){
     return{
-        title:'I will have to see how this work with more style on it'
+        title:'this page just serves to see how to use the $router-push'
       }
     },
    methods: {

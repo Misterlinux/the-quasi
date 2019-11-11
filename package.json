@@ -9,11 +9,18 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.4",
     "core-js": "^2.6.5",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "vue": "^2.6.10",
-    "vue-router": "^3.1.2"
+    "vue-gallery": "^2.0.1",
+    "vue-headful": "^2.0.1",
+    "vue-page-transition": "^0.2.2",
+    "vue-picture-swipe": "^1.2.0",
+    "vue-pswipe": "^0.14.4",
+    "vue-router": "^3.1.2",
+    "vue-script2": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -22,6 +29,10 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "vue-loader": "^15.7.1",
+    "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -45,6 +56,7 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
+    "last 2 versions",
+    "not ie <= 8"
   ]
 }

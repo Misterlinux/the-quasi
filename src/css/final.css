@@ -1,0 +1,61 @@
+.product-item-title {
+  position: relative;
+	z-index: 1;
+  margin-bottom: -3.5rem;
+  width: 80%;
+  height: 16%;
+  right: 3.5%;
+
+  line-height: 2rem;
+  font-family: 'Quantico', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.product-item-img {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+}
+
+/*about all the text inside of it*/
+.product-item-description {
+	position: relative;
+	z-index: 1;
+	margin-top: -3rem;
+  max-width: 90%;
+  left: 2.5%;
+}
+
+/* element to shrink in the media query*/
+.heading-img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.about-heading-content {
+	margin-top: -10rem;
+  position: relative;
+  
+  line-height: 1.2;
+  font-family: 'Saira Stencil One', cursive; 
+  font-size: 5vw; 
+  font-weight: bold;
+}
+
+.page-section {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+  border: 0.15rem outset #a72222;
+}
+
+.avatar{
+  width: 50px;
+}
