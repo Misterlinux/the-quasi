@@ -10,7 +10,7 @@
 
 <!-- trying to add a method and all the netlify -->
 
-							<form>
+							<form method="POST" data-netlify="true">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
