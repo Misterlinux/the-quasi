@@ -8,8 +8,10 @@
     </span>
   </div>
 
+<!-- trying to add a method and all the netlify -->
+
   <div class="forma">
-    <b-form  @submit="onSubmit" @reset="onReset" v-if="show">
+    <b-form @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
     
     <b-form-group
       label-cols-lg="4"

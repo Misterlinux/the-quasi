@@ -7,29 +7,14 @@
 </template>
 
 <script>
-import Blogs from '../statics/blogs.json'
 
  export default{
   name:'gallery',
-  data(){
-     return{
-
-     }
-  },
-   methods: {
-      navigate() {
-          this.$router.go(-1);
+  methods: {
+    navigate() {
+       this.$router.go(-1);
       }
    },
-
-		computed: {
-			entries() {
-				return Blogs
-			},
-			date() {
-				return Object.keys(Blogs)[0];
-			}
-		},
  }
 
 </script>
