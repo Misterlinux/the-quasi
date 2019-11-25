@@ -36,6 +36,10 @@
     background: #a72222;
 }
 
+.logo{
+    margin-left: 35px;
+}
+
 .navbar li{
     list-style: none;
     text-align: center;
@@ -147,6 +151,12 @@
     margin-bottom: 8px;
     border-bottom: 1px solid red;
 }
+
+.footer-title .mega{
+    font-family: 'Saira', sans-serif; 
+    font-size: 20px;
+}
+
 .footer-title:after{
 	position: absolute;
 	content: '';
@@ -165,13 +175,18 @@
     transition: color 0.5s ease-in-out;
     text-decoration:none;
 }
+
+.footer-links a:last-child{
+    border-bottom: none;
+}
+
 .footer-links a:hover{
 	color: #ff8a8a;
 }
 
 .footer-social-links .footer-bottom{
     display: block;
-    margin-top: 20%;
+    margin-top: 17%;
     margin-left: 8%;
 }
 

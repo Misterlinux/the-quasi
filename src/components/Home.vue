@@ -1,15 +1,18 @@
 <template>
   <div class="home">
+    <br>
+    <br>
+    <a class="titolo underlined underlined--offset">
+      <em>Welcome to the Block</em>
+    </a>
 
-    <a href=""  class="underlined underlined--offset">Welcome to the block</a>
-    <span class="underlined underlined--thick"> here s another example</span>
+    <!-- they are the sam but one as a line border and onw without the shadow
       <h2>
         <a href="#" class="underlined underlined--gradient">I'm an other very long highlighted link.</a>
       </h2>
-
-    <a class="titolo underlined underlined--offset">
-      <em>Welcome to the block 3</em>
-    </a>
+      <a href=""  class="underlined underlined--offset">Welcome to the block</a>
+      <span class="underlined underlined--thick"> here s another example</span>
+    -->
 
   <div class="angle"></div>
 
@@ -17,30 +20,41 @@
         <div class="container showcase-inner">
 
             <div class="intro">
-              <img class="intro-img img rounded" :src="image" alt="">
-              
-              <button class='intro-img spe lined thick ml-4 mr-4 mt-4' variant="outline">
-                Check me out 
-                <i class="fas fa-meteor"></i>
-              </button>
+              <img class="intro-img img rounded mb-0" :src="image" alt="">
+
+                <button class="intro-img spe lined thick ml-4 mr-4 mb-5 mt-3" >
+                  Check me out 
+                  <i class="fas fa-meteor"></i>
+                </button>
 
               <div class="intro-box bg-faded p-3 p-lg-5 rounded">
-                <div class="section-heading mb-2 mb-md-3">
-                    <em>Jose Altozano
-                    <span class="tres">This is who I am</span>
+                <div class="section-heading mb-2 mb-md-3 mr-4">
+                    <em> 
+                      <span class="tres">Joselt Ozano </span>
+                      is here
                     </em>
                 </div>
                 <div class="mb-0 intro-text">
-                  The negativity came largely from Mr Trudeau’s missteps in office. 
-                  He pressed his attorney-general to intervene in the prosecution for 
-                  bribery of snc-Lavalin, an engineering firm in Quebec. Parliament’s ethics 
-                  maybe a line more
+
+                  whats the blogk you would say.
+                  its a space in which to developt my ideas, and keep a 
+                  history of them considering I wasnt a big fan of the 
+                  paper, notes, the idea is to develop myself to
+                  develop a specific point of view, and tools for me and the others
+                  to develop all the instruments I need in all the more
+                  different fiel ds tools usables, articles in which I developt
+                  professional mechanism, procedure, a model in which
+                  to arguments, fiels, 
+                  and to also be able to refine my ideas and concepts trought the 
+                  interaction, with others / highren up their
+                  standard, 
+
                   <a href='' class="uno">will be a to your everyday</a>
-                  and blackface as a young man.
+
                 </div>
 
                 <div class="intro-button mx-auto">
-                  <a class="special better" href="#"> Check me out </a>
+                  <a class="special better" href="#"><em> Check me out </em></a>
                 </div>
 
               </div>
@@ -48,16 +62,8 @@
             </div>
 
         </div>
-
+        <br>
     </header>
-
-  <h1 class="title-uno"> Welcome to the block 1 </h1>
-
-  <h1 class="title-duo"> <em> Welcome to the block 2 maybe </em></h1>
-
-  <h1 style="font-family: 'Oleo Script', cursive; font-size: 5rem; font-weight: bold;">
-    <em>welcome to block oreo</em>
-  </h1>
 
   </div>
 </template>
@@ -67,7 +73,7 @@ export default {
   name: 'pagina',
   data () {
     return {
-      image: require('../assets/profile1.jpg'),
+      image: require('../assets/profile.png'),
     }
   },
 }
@@ -86,10 +92,19 @@ export default {
   .footer{
     width: 107%;
   }
+  .intro{
+    margin-top: -30%;
+  }
   .intro .intro-box {
     right: 42%;
     width: 55%;
-    margin-top: -13%;
+    margin-top: -50%;
+  }
+  .intro .intro-img{
+    margin-top: -40%;
+  }
+  .intro .img{
+    height: 100%;
   }
   .showcase {
     height: 45vh;
@@ -113,6 +128,7 @@ export default {
   .titolo{
     font-size: 37px;
     margin-left: 3%;
+    font-size: bold;
   }
   .section-heading{
     line-height: 1.3;
@@ -125,8 +141,8 @@ a:hover {
 
 .angle{
   position: relative;
-  margin-left: 48%;
-  bottom: 2rem;
+  margin-left: 45%;
+  bottom: 1.9rem;
   height: 2rem;
   width: 10rem;
   border-bottom: 7px inset red;
@@ -145,21 +161,7 @@ a:hover {
 @import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Saira&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Geo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
-
-.title-uno{
-  font-family: 'Changa One', cursive;
-  font-size: bold;
-  font-size: 5rem;
-}
-
-.title-duo{
-  font-family: 'Mirza', cursive;
-  font-size: 5rem; 
-  font-weight: bold;
-}
 
 /* about the effect elevate hoven */
 .tres {

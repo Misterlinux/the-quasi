@@ -17,7 +17,7 @@
         <router-link :to="`/gallery/${photo.id}`">
           <img :src="thumbUrl(photo.filename)">
         </router-link>
-        <h2> {{photo.id}} is odd </h2>
+        <h2 class="appetizer"><em> {{photo.desc}} </em></h2>
       </div>
 
     <div v-if="photo.id % 2 == 1">
@@ -25,7 +25,7 @@
         <router-link :to="`/gallery/${photo.id}`">
           <img :src="thumbUrl(photo.filename)">
         </router-link>
-        <h2> {{photo.id}} is no odd </h2>
+        <h2 class="appetizer"><em> {{photo.desc}} </em></h2>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ import photos from '../statics//gallery.json';
       font-weight: bold;
       letter-spacing: 0.5px;
       outline:none;
-      box-shadow: 20px 38px 34px -26px rgba(216, 2, 2, 0.557);
+      box-shadow: 30px 38px 35px -25px rgba(121, 7, 50, 1);
       border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
       /*
       Above is shorthand for:
@@ -108,7 +108,7 @@ import photos from '../statics//gallery.json';
       border-bottom-left-radius:15px 255px;
       */
        &:hover{
-         box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+         box-shadow: 7.5px 10px 4px -4px rgba(75, 17, 40, 0.7);
       } 
       &.dashed.thick{
         border:dashed 5px rgb(185, 7, 19);

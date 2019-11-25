@@ -3,7 +3,7 @@
 	z-index: 1;
   margin-bottom: -3.5rem;
   width: 80%;
-  height: 16%;
+  height:17%;
   right: 3.5%;
 
   line-height: 2rem;
@@ -11,6 +11,10 @@
   font-weight: bold;
   font-size: 2rem;
   font-style: italic;
+}
+
+.argument{
+  margin-bottom: 2.5rem;
 }
 
 .product-item-img {
@@ -47,7 +51,7 @@
 
 .page-section {
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  /*margin-bottom: 1rem;*/
 }
 
 .bg-faded {

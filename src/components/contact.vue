@@ -4,7 +4,7 @@
   <div class="home-title"> 
     <span class="for" 
       style="font-family: 'Changa One', cursive; font-weight: 500; font-size: 4rem;"> 
-        <em>ok so, here s the title</em>
+        <em class="little">ok so, here s the title</em>
     </span>
   </div>
 
@@ -125,6 +125,7 @@
     </b-form>
 
   </div>
+
 </div>
 </template>
 

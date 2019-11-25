@@ -26,7 +26,8 @@ and neither does the text-align*/
 }
 
 .intro .img{
-  width: 85%;
+  width: 65%;
+  height: 50%;
 }
 
 .intro .intro-box {
@@ -43,7 +44,7 @@ and neither does the text-align*/
 	position: absolute;
   bottom: -0.1rem;
   font-weight: bold;
-  font-family: 'Saira', cursive; 
+  font-family: 'Changa One', cursive; 
 }
 
 .intro .intro-box .intro-text{

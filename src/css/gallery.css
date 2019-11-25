@@ -104,3 +104,8 @@
       100% {transform: translateX(200%)}
   }
   
+.appetizer{
+  font-family: 'Saira', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}

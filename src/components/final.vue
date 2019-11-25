@@ -32,14 +32,14 @@
     <div class="row">
 
 <!--first argument -->
-      <div class="col-md-6 mb-3">
+      <div class="col-md-6 argument">
         <router-link to="/microe">
 
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
             <div class="mb-0">
-                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff</a>
-                lets see
+                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff lets see</a>
+                
             </div>
           </div>
         </div>
@@ -82,13 +82,15 @@
 
 <!--end of first-->
 
-      <div class="col-md-6">
+      <div class="col-md-6 argument">
 
       <router-link to="/microe">
-        <div class="product-item-title d-flex">
+
+        <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
-            <div class="mb-0 example">
-              <span class="hover hover-3">Blended to Perfection Coffees &amp; Teas</span>
+            <div class="mb-0">
+                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff</a>
+                lets see
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@
       </div>
 <!-- hello there -->
 
-      <div class="col-md-6">
+      <div class="col-md-6 argument">
         <router-link to="/microe">
 
         <div class="product-item-title d-flex ">
@@ -159,7 +161,7 @@
       </div>
 <!-- what about -->
 
-      <div class="col-md-6">
+      <div class="col-md-6 argument">
         <router-link to="/microe">
 
         <div class="product-item-title d-flex ">
@@ -211,11 +213,10 @@
 </div>
 </section>
 
-    <button type="button" class="btn btn-primary" v-on:click="navigate()"> 
+    <button class="spe lined thick" v-on:click="closeLightbox()"> 
         minus 1
     </button>
 
-       
     <div class="example">
       <span class="hover hover-1">This underline goes left to right is this YELLOW</span>
     </div>
@@ -246,8 +247,8 @@ export default {
     }
   },
    methods: {
-      navigate() {
-          this.$router.go(-1);
+      closeLightbox() {
+        this.$router.push('/');
       }
    }
 }

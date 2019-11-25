@@ -12,7 +12,7 @@
 
             <div class="navbar-header">
               <a class="navbar-brand" href="#">
-                <span class="fas fa-camera"></span> 
+                <img class="logo" src="./assets/mezzot.png" alt="logo">
               </a>
             </div>
 
@@ -46,7 +46,7 @@
                         <i class="fas fa-photo-video"></i>
                         <i class="fas fa-photo-video"></i>
                       </div>
-                      <div class="name"><span data-text="second">gallery</span></div>
+                      <div class="name"><span data-text="gallery">gallery</span></div>
                     </a>
                   </router-link>
                 </li>
@@ -87,30 +87,36 @@
 <footer class="footer">				
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-4 mb-3">
 					<div class="footer-title m-t-5 p-b-5">
-						About us
+						About 
+            <span class="mega">
+              <em> AZ </em>
+            </span>
 					</div>	
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500 
-            text of the printing.
-					</p>
+					<div>
+            All articles has as its objective to develop a
+            worthwhile <em><b>view</b></em>
+            on given subjects.
+          </div>
+          <div>
+            Due to this the number of updates can <em><b>vary.</b></em>
+          </div>
+          <div>
+            For a daily insight follow me on my social media.
+					</div>
 				</div>
 
-				<div class="col-md-5">
+				<div class="col-md-4">
 					<div class="footer-title m-t-5 p-b-5">
 						Latest
 					</div>	
-					<div class="footer-links">
-						<a href="#">
-							Appointment
+					<div class="footer-links mt-3">
+						<a href="https://github.com/Misterlinux">
+							<b>Code's Warehouse</b>
 						</a>
-						<a href="#">
-							Health center
-						</a>
-						<a href="#">
-							Quality
+						<a href="https://www.deviantart.com/">
+							<b>SketchBox gallery</b>
 						</a>
 					</div>
 				</div>
@@ -247,15 +253,9 @@ getting the content in it */
 
 <style lang="scss">
 //color/ui color variables
-$white: #ececec;
-$black: #333333;
-$yellow: rgba(255, 215, 0, 0.85);
-$purple: rgba(147, 112, 219, 0.85);
-$colorPrimary: $yellow;
-$colorSecondary: $purple;
 
 //split button mixin
-@mixin btn__split($colorLeft, $colorRight, $textColor) {
+@mixin btn__split {
 	.special {
 		position: relative;
 		letter-spacing: 0.2em;
@@ -264,7 +264,7 @@ $colorSecondary: $purple;
 		background: transparent;
 		outline: none;
 		font-size: 1.2vw;
-    color: $textColor;
+    color: rgba(125, 10, 5, 0.7);
     z-index: 0;
 
 		&::after,
@@ -278,12 +278,12 @@ $colorSecondary: $purple;
 			z-index: -2;
 		}
 		&::before {
-			background-color: $colorLeft;
+			background-color: rgba(120, 7, 51, 0.65);
 			top: 0.2rem;
 			left: 1.5rem;
 		}
 		&::after {
-			background-color: $colorRight;
+			background-color: rgba(216, 135, 65, 0.7);
 			top: 1rem;
 			left: 7rem;
 		}
@@ -309,6 +309,6 @@ $colorSecondary: $purple;
 	font-weight: 700;
 }
 
-@include btn__split($colorPrimary, $colorSecondary, $black);
+@include btn__split;
 
 </style>
