@@ -21,6 +21,11 @@
 									<div class="field">
 										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
 									</div>
+
+									<div class="field">
+										<div data-netlify-recaptcha="true"></div>
+									</div>
+
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" /></li>
