@@ -189,9 +189,10 @@ export default {
           checked: [],
           text:'',
 
-          panelists: ['Evan You', 'Chris Fritz'],
-          currentPanelist: 'Evan You'
         },
+        panelists: ['Evan You', 'Chris Fritz'],
+        currentPanelist: 'Evan You',
+
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
       }
