@@ -32,26 +32,28 @@
 								</ul>
 							</form>
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+<!-- ok so, about the specifi form -->
+
+  <form
+    name="ask-question"
+    method="post"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    >
+    <input type="hidden" name="form-name" value="ask-question" />
+    <label v-for="(panelist, index) in panelists" :key="index">
+      <input
+        type="radio"
+        name="panelist"
+        :value="panelist"
+        @input="ev => updatePanelist"
+        :checked="panelist === currentPanelist"
+      />
+      <span>{{ panelist }}</span>
+    </label>
+    ...
+    <button>Submit</button>
+  </form>
 
 
   <div class="forma">
@@ -185,7 +187,10 @@ export default {
           name: '',
           food: null,
           checked: [],
-          text:''
+          text:'',
+
+          panelists: ['Evan You', 'Chris Fritz'],
+          currentPanelist: 'Evan You'
         },
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
@@ -209,8 +214,12 @@ export default {
         this.$nextTick(() => {
           this.show = true
         })
+      },
+
+      updatePanelist (ev) {
+        this.currentPanelist = ev.target.value
       }
-    },
+    }
 }
 
 </script>
