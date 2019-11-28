@@ -55,6 +55,7 @@
     <button>Submit</button>
   </form>
 
+<!-- end of the form -->
 
   <div class="forma">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
