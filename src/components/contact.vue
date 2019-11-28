@@ -46,8 +46,8 @@
         type="radio"
         name="panelist"
         :value="panelist"
-        @input="ev => updatePanelist"
-        :checked="panelist === currentPanelist"
+        @input="ev => form.askPerson = ev.target.value"
+        :checked="form.askPerson === panelist"
       />
       <span>{{ panelist }}</span>
     </label>
@@ -190,8 +190,10 @@ export default {
           checked: [],
           text:'',
 
+          askPerson: "",
         },
         panelists: ['Evan You', 'Chris Fritz'],
+
         currentPanelist: 'Evan You',
 
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
@@ -219,6 +221,7 @@ export default {
       },
 
       updatePanelist (ev) {
+        
         this.currentPanelist = ev.target.value
       }
     }
