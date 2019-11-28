@@ -39,7 +39,6 @@
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
-    @submit.prevent="handleSubmit"
     >
     <input type="hidden" name="form-name" value="ask-question" />
     <label v-for="(panelist, index) in panelists" :key="index">
@@ -195,6 +194,8 @@ export default {
         },
         panelists: ['Evan You', 'Chris Fritz'],
 
+        currentPanelist: 'Evan You',
+
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
       }
@@ -219,28 +220,10 @@ export default {
         })
       },
 
-    encode (data) {
-      return Object.keys(data)
-        .map(
-          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join("&");
-    },
-    handleSubmit () {
-      const axiosConfig = {
-        header: { "Content-Type": "application/x-www-form-urlencoded" }
-      };
-      axios.post(
-        "/",
-        this.encode({
-          "form-name": "ask-question",
-          ...this.form
-        }),
-        axiosConfig
-      );
-    }
-
-
+      updatePanelist (ev) {
+        
+        this.currentPanelist = ev.target.value
+      }
     }
 }
 
