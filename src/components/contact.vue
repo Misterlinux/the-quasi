@@ -47,8 +47,14 @@
 <!-- end of the form -->
 
   <div class="forma">
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
-    
+    <b-form @submit="onSubmit" @reset="onReset" v-if="show" 
+      name="ask-question"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field">
+
+    <input type="hidden" name="form-name" value="ask-question" />
+
     <b-form-group
       label-cols-lg="4"
       label="so I would need to put a long text here and an3
@@ -96,6 +102,8 @@
             type="email"
             required
             placeholder="Email here"
+
+            name="mail"
           ></b-form-input>
         </b-form-group>
 
@@ -113,6 +121,8 @@
               v-model="form.name"
               required
               placeholder="Enter name"
+
+              name="name"
             ></b-form-input>
         </b-form-group>
 
@@ -149,6 +159,8 @@
           rows="3"
           max-rows="7"
           required
+
+          name="question"
         ></b-form-textarea>
       </b-form-group>
 
@@ -158,7 +170,10 @@
           <button class='spe dashed thick ml-auto' type="submit" variant="primary">Submit</button>
 
         </div>
+
     </b-form-group>
+
+    <button>Submit</button>
 
     </b-form>
 
@@ -192,10 +207,10 @@ export default {
     },
 
     methods: {
-      onSubmit(evt) {
-        evt.preventDefault()
-        alert(JSON.stringify(this.form))
-      },
+//      onSubmit(evt) {
+   //     evt.preventDefault()
+  //      alert(JSON.stringify(this.form))
+//      },
       onReset(evt) {
         evt.preventDefault()
         // Reset our form values
