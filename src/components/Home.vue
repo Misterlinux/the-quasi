@@ -36,18 +36,42 @@
                 </div>
                 <div class="mb-0 intro-text">
 
-                  whats the blogk you would say.
-                  its a space in which to developt my ideas, and keep a 
-                  history of them considering I wasnt a big fan of the 
-                  paper, notes, the idea is to develop myself to
-                  develop a specific point of view, and tools for me and the others
-                  to develop all the instruments I need in all the more
-                  different fiel ds tools usables, articles in which I developt
-                  professional mechanism, procedure, a model in which
-                  to arguments, fiels, 
-                  and to also be able to refine my ideas and concepts trought the 
-                  interaction, with others / highren up their
-                  standard, 
+                  I am not very good run over old notes.
+
+
+
+                  To know and be able to use and inter-disciplies and be able towork
+                  different envirodments and a variety of tools is fundamental
+                  in the current century, and even if it wasnt Its how I want tofoces/approach
+                  my lifelon education/ learning.
+
+                  developt different toold, different areas, inter-
+                  (I need workds for usable, practical)
+
+                  its also an objective to be able to interact with 
+                  complex ideas and interact to what I think is the best way tohi
+                  higher my standards and the best way to refine both y ideas, 
+                  concepts and views.
+                  
+                  thats why I think having a space in which is easier for me to checkread and interact
+                  with others is the smoother path to get to a more complete knowledge.
+
+                  which will also allow me to 
+                  developing projects on different medias
+                  different media projects/ different formats and multi fiels etc.
+
+                  for a cleaner and smoother/ more defined development
+                  of the porfolio, the blogk, 
+
+                  thats the idea/ this si the idea I want to follow
+                  this is the plan....this is the plan of how I thik to archieve
+                  this....
+                  this is what I want to develop as my style.....
+                  thsi is how I want thgs to follow their course..
+                  
+                  thats the way I want to follow /only way, and I hope the ones
+                  that you will have being in my own designed development path.
+                  the blogk.
 
                   <a href='' class="uno">will be a to your everyday</a>
 

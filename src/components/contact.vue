@@ -9,29 +9,6 @@
   </div>
 
 <!-- trying to add a method and all the netlify -->
-
-							<form netlify name="primo" method="POST">
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-
-									<div class="field">
-										<div data-netlify-recaptcha="true"></div>
-									</div>
-
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
-								</ul>
-							</form>
-
 <!-- ok so, about the specifi form -->
 
   <form
@@ -56,6 +33,24 @@
   </form>
 
 <!-- end of the form -->
+
+  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <p class="hidden"> 
+      this isnt supposed to be filled I guess
+    </p>
+
+    <p class="h4 text-center mb-4">Write to us</p>
+    <div class="grey-text">
+      <mdb-input name="name" label="Your name" icon="user" group type="text" validate error="wrong" success="right"/>
+      <mdb-input name="email" label="Your email" icon="envelope" group type="email" validate error="wrong" success="right"/>
+      <mdb-input name="subject" label="Subject" icon="tag" group type="text" validate error="wrong" success="right"/>
+      <mdb-textarea name="message" :rows="2" label="Your message" icon="pencil"/>
+    </div>
+    <div class="text-center">
+      <mdb-btn outline="secondary">Send <mdb-icon far icon="paper-plane" class="ml-1"/></mdb-btn>
+    </div>
+  </form>
+
 
   <div class="forma">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
@@ -179,8 +174,16 @@
 </template>
 
 <script>
+import { mdbInput, mdbBtn, mdbTextarea } from 'mdbvue';
+
+
 export default {
   name: 'contact',
+    components: {
+      mdbInput,
+      mdbBtn,
+      mdbTextarea
+    },
     data() {
       return {
         form: {

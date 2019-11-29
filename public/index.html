@@ -11,13 +11,37 @@
     <noscript>
       <strong>We're sorry but routando doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+
+
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" hidden>
+        <p class="hidden"> 
+          this isnt supposed to be filled I guess
+        </p>
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Your Email: <input type="text" name="email" /></label>
+          </p>
+        <p>
+          <label>Your subject: <input type="text" name="subject" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+
     <div id="app"></div>
-    
     <form name="ask-question" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="radio" name="panelist" />
       <textarea name="question"></textarea>
     </form>
     <!-- built files will be auto injected -->
+
   </body>
 </html>
