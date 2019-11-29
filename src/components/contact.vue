@@ -140,6 +140,8 @@
             v-model="form.food"
             :options="foods"
             required
+
+            name="taste"
           ></b-form-select>
         </b-form-group>
 
@@ -207,10 +209,6 @@ export default {
     },
 
     methods: {
-//      onSubmit(evt) {
-   //     evt.preventDefault()
-  //      alert(JSON.stringify(this.form))
-//      },
       onReset(evt) {
         evt.preventDefault()
         // Reset our form values
