@@ -28,29 +28,23 @@
       />
       <span>{{ panelist }}</span>
     </label>
-    ...
+    <p>
+      <label>First Name</label>
+      <input name="name" type="text">
+    </p>
+    <p>
+      <label> email? </label>
+      <input name="mail" type="email">
+    </p>
+    <p>
+      <label>Question</label>
+      <textarea name="question"> 
+      </textarea>
+    </p>
     <button>Submit</button>
   </form>
 
 <!-- end of the form -->
-
-  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-    <p class="hidden"> 
-      this isnt supposed to be filled I guess
-    </p>
-
-    <p class="h4 text-center mb-4">Write to us</p>
-    <div class="grey-text">
-      <mdb-input name="name" label="Your name" icon="user" group type="text" validate error="wrong" success="right"/>
-      <mdb-input name="email" label="Your email" icon="envelope" group type="email" validate error="wrong" success="right"/>
-      <mdb-input name="subject" label="Subject" icon="tag" group type="text" validate error="wrong" success="right"/>
-      <mdb-textarea name="message" :rows="2" label="Your message" icon="pencil"/>
-    </div>
-    <div class="text-center">
-      <mdb-btn outline="secondary">Send <mdb-icon far icon="paper-plane" class="ml-1"/></mdb-btn>
-    </div>
-  </form>
-
 
   <div class="forma">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
@@ -174,21 +168,16 @@
 </template>
 
 <script>
-import { mdbInput, mdbBtn, mdbTextarea } from 'mdbvue';
-
-
 export default {
   name: 'contact',
-    components: {
-      mdbInput,
-      mdbBtn,
-      mdbTextarea
-    },
     data() {
       return {
         form: {
-          email: '',
           name: '',
+          email: '',
+          subject:'',
+          message: '',
+
           food: null,
           checked: [],
           text:'',
@@ -197,12 +186,11 @@ export default {
         },
         panelists: ['Evan You', 'Chris Fritz'],
 
-        currentPanelist: 'Evan You',
-
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
       }
     },
+
     methods: {
       onSubmit(evt) {
         evt.preventDefault()
@@ -222,11 +210,7 @@ export default {
           this.show = true
         })
       },
-
-      updatePanelist (ev) {
-        
-        this.currentPanelist = ev.target.value
-      }
+// end added data I guess
     }
 }
 
