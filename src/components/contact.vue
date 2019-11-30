@@ -11,43 +11,10 @@
 <!-- trying to add a method and all the netlify -->
 <!-- ok so, about the specifi form -->
 
-  <form
-    name="ask-question"
-    method="post"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-    >
-    <input type="hidden" name="form-name" value="ask-question" />
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        :value="panelist"
-        @input="ev => form.askPerson = ev.target.value"
-        :checked="form.askPerson === panelist"
-      />
-      <span>{{ panelist }}</span>
-    </label>
-    <p>
-      <label>First Name</label>
-      <input name="name" type="text">
-    </p>
-    <p>
-      <label> email? </label>
-      <input name="mail" type="email">
-    </p>
-    <p>
-      <label>Question</label>
-      <textarea name="question"> 
-      </textarea>
-    </p>
-    <button>Submit</button>
-  </form>
-
 <!-- end of the form -->
 
   <div class="forma">
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show" 
+    <b-form @reset="onReset" v-if="show" 
       name="ask-question"
       method="post"
       data-netlify="true"
@@ -196,12 +163,10 @@ export default {
           message: '',
 
           food: null,
-          checked: [],
+          //checked: [],
           text:'',
 
-          askPerson: "",
         },
-        panelists: ['Evan You', 'Chris Fritz'],
 
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
@@ -215,7 +180,6 @@ export default {
         this.form.email = ''
         this.form.name = ''
         this.form.food = null
-        this.form.checked = []
         this.form.text = ''
         // Trick to reset/clear native browser form validation state
         this.show = false
