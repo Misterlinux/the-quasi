@@ -136,8 +136,9 @@
         <div class="d-flex">
           <button class='spe lined thick' type="reset" variant="outline">Clear</button>
 
-          <button class='spe dashed thick ml-auto' type="submit" variant="primary">Submit</button>
+          <!--<button class='spe dashed thick ml-auto' type="submit" variant="primary">Submit</button>-->
 
+          <button class='spe dashed thick ml-auto' >Submit</button>
         </div>
 
     </b-form-group>
@@ -163,7 +164,6 @@ export default {
           message: '',
 
           food: null,
-          //checked: [],
           text:'',
 
         },
