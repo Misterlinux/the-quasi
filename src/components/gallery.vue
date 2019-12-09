@@ -4,7 +4,9 @@
 
     <div class="home-title">
       <span class="for gallery-title"><em> Welcome to the gallery </em></span>
-      <span class="sec gallery-sub">some undertext in which I have to explain kinda a lot </span>
+      <span class="sec gallery-sub"> where everything is a reminder of "If I can see it I can sketch it" 
+        <i class="fas fa-pencil-ruler"></i> 
+      </span>
     </div>
 
 <!-- ok so our build -->

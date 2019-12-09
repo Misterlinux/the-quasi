@@ -13,7 +13,7 @@
 						<div class="blog-back">
 
 							<div class="blog-title" @click="$router.push({name: entry.id})">
-								<img class="icone" src="https://www.tutorialrepublic.com/lib/images/html-illustration.png" />
+								<img class="icone" :src= entry.src />
 								{{entry.title}}
 							</div>
 						</div>
@@ -39,7 +39,7 @@ export default {
 				return Blogs
 			},
 			date() {
-				return Object.keys(Blogs)[0];
+				return Object.keys(Blogs)[1];
 			}
 		},
 }

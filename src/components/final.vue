@@ -2,24 +2,23 @@
   <div class="home">
 
     <div class="container-fluid page-section">
-      <img class="img-fluid rounded heading-img mb-0" src="../assets//snow.jpg" alt="">
+      <img class="img-fluid rounded heading-img mb-0" src="../assets/larg.jpg" alt="">
       
       <div class="about-heading-content">
           <div class="col-11 mx-auto">
             <div class="bg-faded rounded p-5">
-              <h2 class="mb-4">
-                Strong Coffee,
-                    <div class="flip">
-                      <div><div>wOrK</div></div>
-                      <div><div>lifeStyle</div></div>
-                      <div><div>Everything</div></div>
+              <div class="mb-4">
+                Welcome to the
+                    <div class="flip mr-1">
+                      <div><div>views</div></div>
+                      <div><div>sets</div></div>
+                      <div><div>zest</div></div>
                     </div>
-                    where is this?
-                <a href="#"><span class="underlined underlined--thick">About Our Cafe</span></a>
-              </h2>
-              <p class="example">
-                <span class="hover hover-1">
-                  Founded in 1987 by the Hernandez brothers.
+                <a href="#"><span class="underlined underlined--thick">of the Blogk</span></a>
+              </div>
+              <p class="example prin">
+                <span class="hover hover-1 mb-1">
+                  Everything I want to know, everything <em> you </em> want to read.
                 </span>
               </p>
             </div>
@@ -33,48 +32,38 @@
 
 <!--first argument -->
       <div class="col-md-6 argument">
-        <router-link to="/microe">
+        <router-link to="/intro">
 
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
-            <div class="mb-0">
-                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff lets see</a>
-                
+            <div class="p-3">
+                <a href="#" class="underlined underlined--reverse">Introduction to the Blogk's backbone</a>
             </div>
           </div>
         </div>
 
-        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/snow.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/intro.jpg" alt="">
 
         </router-link>
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-4 p-md-5 rounded">
-            <span class="mb-0">We take 
-              <em>pride in our work, and it shows.</em> 
-              Every time you order a beverage from us, 
-              <b>we guarantee that it will be coming back for more.</b>
-              now check out the 
-              <mark>part highlighted</mark> 
-              or just the
-              <del> deleted part </del> 
-              and also the idea of 
-              <u> having something underlined </u> 
-              and also we can work with 
-              <strong> bold text </strong>
-              or 
-              <small> the smaller part </small>
-              and what about the abreviation is
-              <abbr title="smaller texto">like</abbr> 
-
-              <div class="d-flex ">
-                <div class="p-2 w-100">this is what</div>
-                <div class="p-2 flex-shrink-1">maximixe one her 2</div>
+            <span class="mb-0">
+              <div class="d-flex justify-content-between">
+                <div class="">december | 2019</div>
+                <div class=""> standard </div>
               </div>
-
-              </span>
-            <span class="lead"> another text to check the justify </span>
-
-            <footer class="blockquote-footer text-right">Someone famous in <cite title="what ya search?">Source Title</cite></footer>
+              <div class="h4"> <b><em> Introduction </em></b></div>
+              Anything <small> great </small> needs a proper introduction.
+              <div>
+              it would be a waste not to keep notes on 
+              everthing needed to air the Blogk.
+              </div>
+              <div class="mt-2">
+              Recommended for those who tend to be interested 
+              to travel notes.
+              </div>
+            <footer class="blockquote-footer text-right">The Blogk</footer>
+            </span>
           </div>
         </div>
 
@@ -89,23 +78,29 @@
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
             <div class="mb-0">
-                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff</a>
-                lets see
+                <a href="#" class="underlined underlined--reverse">About the Design of things</a>
             </div>
           </div>
         </div>
 
-        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/snow.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/des.jpg" alt="">
 
       </router-link>
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
             <div class="d-flex justify-content-between">
-              <div class="">20 May | 2016</div>
-              <div class=""> Business</div>
+              <div class="">December | 2019</div>
+              <div class=""> core </div>
             </div>
-            <h3 class="h4">Microeconomics</h3>
-            <span class="mb-0 text-muted">We take pride in our work, and it shows. Every time you order </span>
+            <div class="h4"><em><b>Design</b></em></div>
+            the world is based on mechanics and being able to developt them as 
+            dynamics means having the world in a pocket. or at least being ablr to create them
+            each any single part.
+
+            
+
+            <footer class="blockquote-footer text-right">about the core</footer>
+
           </div>
         </div>
 
@@ -259,30 +254,30 @@ export default {
 
 @import '../css/final.css';
 
-#container {
+/*#container {
   color:#999;
   text-transform: uppercase;
-  font-size:36px;
+  font-size: 36px;
   font-weight:bold;
   padding-top:50px;  
   position:relative;
   width:100%;
   bottom:25%;
   display: inline-block;
-} 
+} */
 
 .flip {
-  height: 75px;
+  height: 85px;
   overflow:hidden;
   display: inline-block;
   margin-bottom: -15px;
 }
 /* ok so, this defines the dimension of the el*/
 .flip > div > div {
-  color:#fff;
+  color:#f9ebeb;
   padding: 2px 12px;
-  height: 50px;
-  margin-bottom:45px;
+  height: 67px;
+  margin-bottom: 40px;
   display:inline-block;
 }
 
@@ -291,23 +286,23 @@ export default {
 }
 
 .flip div div {
-  background:#42c58a;
+  background:#CD5C5C;
 }
 .flip div:first-child div {
-  background:#4ec7f3;
+  background:#a72222;
 }
 .flip div:last-child div {
-  background:#DC143C;
+  background:#A93226;
 }
 
 @keyframes show {
   0% {margin-top:-270px;}
-  5% {margin-top:-170px;}
-  33% {margin-top:-170px;}
-  38% {margin-top:-70px;}
-  66% {margin-top:-70px;}
-  71% {margin-top: 10px;}
-  99.99% {margin-top: 10px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top: 5px;}
+  99.99% {margin-top: 5px;}
   100% {margin-top:-270px;}
 }
 
@@ -326,12 +321,12 @@ $animate: all 0.2s ease-in-out;
         position: absolute;
         bottom: -5px;
         width: 0px;
-        height: 5px;
+        height: 3.5px;
         margin: 5px 0 0;
         transition: $animate;
         transition-duration: 0.75s;
         opacity: 0;
-        background-color: darken(orange,5%);
+        background-color: darken(#A93226,5%);
       }
       &.hover-1 {
         &:before,

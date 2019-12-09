@@ -34,11 +34,15 @@
     border-right: 2px outset #C80815;
   }
 
+  .gallery-sub .fa-pencil-ruler{
+    font-size: 2vw;
+  }
+
   /* text effect with simple class */
   .home-title .for{
     margin-top: 3%;
     margin-left: -1%;
-    background-color: rgba(235, 191, 216, 0.70);
+    background-color: rgba(148, 30, 30, 0.5);
     width: 88%;
     line-height: 1.25;
     padding: 0.3rem 1rem;
@@ -48,7 +52,7 @@
   }
   
   .home-title .sec{
-    background-color: rgba(255, 243, 190, 0.60);
+    background-color: rgba(190, 39, 39, 0.3);
     width: 88%;
     padding-top: -0.2rem;
     padding-left: 0.6em;

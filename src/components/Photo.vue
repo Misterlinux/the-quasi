@@ -22,7 +22,7 @@
 
       </div>
 
-    <button class="usno spe lined thick mr-5" v-on:click="navigate()"> minus 2 </button>
+    <button class="usno spe lined thick mr-5" v-on:click="navigate()"> Back</button>
       
     </div>
 

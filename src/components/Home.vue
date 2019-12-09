@@ -27,53 +27,38 @@
                   <i class="fas fa-meteor"></i>
                 </button>
 
-              <div class="intro-box bg-faded p-3 p-lg-5 rounded">
-                <div class="section-heading mb-2 mb-md-3 mr-4">
+              <div class="intro-box bg-faded p-3 pb-lg-5 pr-lg-5 pl-lg-5 pt-lg-4 mb-5 rounded">
+                <div class="section-heading mb-1 mb-md-1 mr-4">
                     <em> 
                       <span class="tres">Joselt Ozano </span>
                       is here
                     </em>
                 </div>
                 <div class="mb-0 intro-text">
+                  <div>
+                  <span class="fug"> I am no good at running over old notes </span>
+                  but subject breakdowns tends to leave a lot of them behind.
+                  </div>
+                  <div>
+                  The <span class="blo">Blogk </span> exist to <span class="sim"> find and gather </span> 
+                  drafts both brief and old,
+                  into a <span class="sim">multidisciplinary porfolio.</span>
+                  Its very <span class="example"><span class="hover hover-1">audience-focused</span></span> 
+                  nature sets and highen the standard.
+                  <div>
+                  All for a <mark> consistent and interdisciplinary </mark>
+                  <span class="sim"> model </span>to move swiftly between 
+                  <span align="right"> fields and envirodments. </span>
+                  </div>
+                  </div>
+                  <div class="mir">
+                  This is what it takes to BE.
+                  </div>
+                  Here is my view and I hope it will be yours as well while being here
+                  in my 
+                  <span class="example"><span class="hover hover-1">own designed development path.</span></span>
 
-                  I am not very good run over old notes.
-
-
-
-                  To know and be able to use and inter-disciplies and be able towork
-                  different envirodments and a variety of tools is fundamental
-                  in the current century, and even if it wasnt Its how I want tofoces/approach
-                  my lifelon education/ learning.
-
-                  developt different toold, different areas, inter-
-                  (I need workds for usable, practical)
-
-                  its also an objective to be able to interact with 
-                  complex ideas and interact to what I think is the best way tohi
-                  higher my standards and the best way to refine both y ideas, 
-                  concepts and views.
-                  
-                  thats why I think having a space in which is easier for me to checkread and interact
-                  with others is the smoother path to get to a more complete knowledge.
-
-                  which will also allow me to 
-                  developing projects on different medias
-                  different media projects/ different formats and multi fiels etc.
-
-                  for a cleaner and smoother/ more defined development
-                  of the porfolio, the blogk, 
-
-                  thats the idea/ this si the idea I want to follow
-                  this is the plan....this is the plan of how I thik to archieve
-                  this....
-                  this is what I want to develop as my style.....
-                  thsi is how I want thgs to follow their course..
-                  
-                  thats the way I want to follow /only way, and I hope the ones
-                  that you will have being in my own designed development path.
-                  the blogk.
-
-                  <a href='' class="uno">will be a to your everyday</a>
+                  <footer class="blockquote-footer text-right"><b> The Blogk </b></footer>
 
                 </div>
 
@@ -165,12 +150,12 @@ a:hover {
 
 .angle{
   position: relative;
-  margin-left: 45%;
+  margin-left: 44%;
   bottom: 1.9rem;
   height: 2rem;
   width: 10rem;
-  border-bottom: 7px inset red;
-  border-right: 4px outset red;
+  border-bottom: 6px inset #CD5C5C;
+  border-right: 4px inset #A93226;
   -moz-transform: skew(-45deg);
   -webkit-transform: skew(-45deg);
   transform: skew(35deg);
@@ -196,13 +181,13 @@ a:hover {
 
 .tres:before {
   content: "";
-  background: orange;
+  background: #CD5C5C;
   position: absolute;
-  width: 100%;
+  width: 98%;
   /*height: 50px;*/
   bottom: 0;
   left: 0;
-  border-radius: 5px;
+  border-radius: 1px;
   transform: scaleX(0);
   animation: 1s forwards no-hover-v linear;
   animation-fill-mode: forwards;
@@ -225,7 +210,7 @@ a:hover {
   55% {height: 5px;}
   100% {
       transform: scaleX(1.05);
-      height: 1.8rem;
+      height: 2.1rem;
      }
 }
 @keyframes no-hover-v {
@@ -287,7 +272,7 @@ and Down here we have shadown line*/
   /*flex: 1;*/
   line-height: 1.1;
   text-decoration: none;
-  background-image: linear-gradient(to right, darkred 0, red 100%);
+  background-image: linear-gradient(to right, #a72222 0, #F3A9A3 200%);
   background-position: 0 1.2em;
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -301,7 +286,7 @@ and Down here we have shadown line*/
   &--offset {
     background-position: 0 0em;
     //didn't find another solution than mask the underline shape by a box shadow with the same color than the bg
-    box-shadow: inset 0 -0.03em 0 0 white;
+    box-shadow: inset 0 -0.03em 0 0 #F3A9A3 ;
   }
   &--gradient {
     background-position: 0 -0.1em;

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
         <vue-headful
             title="Title from vue-headful"
             description="Description from vue-headful"
@@ -156,6 +156,8 @@ export default {
 <style>
 @import './css/app.css';
 
+/* I still have to find a way to have different background */
+
 .thirdOverlayLine {
   left: 93%;
 
@@ -183,13 +185,16 @@ export default {
   margin-top: 1%;
   width: 60%;
   max-height: 360px;
+  border-left: 1px groove pink;
+  border-bottom: 3px inset #C80815;
+  border-right: 3px outset #c80815;
 }
 
 .appetize{
   margin-top: 2%;
   width: 37%;
   float: right;
-  background: #F0E6AA;
+  background: rgba(255, 230, 204, 0.5);
   padding: 6% 4px;
   font-family: 'Oleo Script', cursive; 
   font-size: 3rem; 
@@ -200,7 +205,7 @@ export default {
     margin-left: 3%;
     margin-top: 1%;
     width: 88%;
-    background: #F0E6AA;
+    background: rgba(255, 230, 204, 0.4);
     display: block;
     font-size: 20px;
 }
@@ -217,6 +222,13 @@ export default {
     padding: 10px 20px 10px 7px;
     width: 30%;
     box-sizing: border-box;
+}
+
+.tutto{
+  float: left;
+  padding: 10px 20px 10px 7px;
+  width: 70%;
+  box-sizing: border-box;
 }
 
 /* ok so down here we get the animation for 
@@ -264,7 +276,6 @@ getting the content in it */
 		background: transparent;
 		outline: none;
 		font-size: 1.2vw;
-    color: rgba(125, 10, 5, 0.7);
     z-index: 0;
 
 		&::after,

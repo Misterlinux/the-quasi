@@ -1,16 +1,18 @@
 {
-    "Primo": [
+    "Introduction": [
         {
             "id": "cuffie",
             "date": "30 agosto, 2019",
             "title": "cheking the value of things",
-            "description": "Simple and neat way to add a blogging feature to add on your website."
+            "description": "Simple and neat way to add a blogging feature to add on your website.",
+            "src": "https://www.tutorialrepublic.com/lib/images/html-illustration.png"
         },
         {
             "id": "headphone",
             "date": "31 agosto, 2019",
             "title": "going for the second",
-            "description": "each time I check I see the koss around."
+            "description": "each time I check I see the koss around.",
+            "src": "https://images-na.ssl-images-amazon.com/images/I/61JdfqcG-%2BL._SX679_.jpg"
         }
     ],
     "Secondo": [

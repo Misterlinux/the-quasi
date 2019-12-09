@@ -6,22 +6,18 @@
     box-sizing: border-box;
   }
   
-  #app {
+  .app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    margin-top: 80px;
+    margin-top: 60px;
   
     position: relative;
     width: 100%;
     min-height: 30rem;
-  
-    background: linear-gradient(to bottom bottom,#a72222  0%, #c94b48 25%,#ff8a8a 50%, #c94b48 75%, #a72222 100%), url("../assets/case.jpg");
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
+
 }
 
 .home{
-    margin-top: -30px;
+    margin-top: 20px;
     position: relative;
     width: 100%;
     height: auto;
@@ -132,6 +128,7 @@
 
 .navbar-toggler .fa-server{
     font-size: 28px;
+    color: #f3d8d8;
 }
 
 /* CSS for the Footer*/

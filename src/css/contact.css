@@ -1,25 +1,35 @@
 .elemento{
-    color: red;
+    color: rgba(249, 235, 235, 0.8);
+    font-style: italic;
   }
   
+.fa-shipping-fast{
+  color: #f9ebeb;
+}
+
 .little{
   margin-left: 3%;
 }
 
+.little .fa-paper-plane{
+  font-size: 3.2rem;
+}
+
   .altro{
-    color: black;
+    color: #2a0909;
+    font-style: italic;
   }
   
   .forma{
     width: 98%;
-    background-color: rgba(120, 125, 205, 0.5);
+    background-color: rgba(167, 34, 34, 0.2);
   }
   
   .primo{
     width: 325px;
     height: 250px;
     position: absolute;
-    right: 100%;
+    right: 103%;
     top: 20%;
   }
   

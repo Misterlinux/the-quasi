@@ -3,8 +3,9 @@
 
   <div class="home-title"> 
     <span class="for" 
-      style="font-family: 'Changa One', cursive; font-weight: 500; font-size: 4rem;"> 
-        <em class="little">ok so, here s the title</em>
+      style="font-family: 'Changa One', cursive; font-weight: 500; font-size: 4rem;
+        border-bottom: 3px outset #C80815; border-right: 2px outset #C80815;"> 
+        <em class="little"> The Blogk's Contact Form <i class="fas fa-paper-plane ml-1"></i></em>
     </span>
   </div>
 
@@ -24,15 +25,16 @@
 
     <b-form-group
       label-cols-lg="4"
-      label="so I would need to put a long text here and an3
-      image, how am I supposed to do that, are yo sure?"
+      label="
+      Welcome to the direct comment line,
+      any and all commentary will be dispatched,tell me the aftertaste the Blogk left you."
       label-size="lg"
       label-class="font-weight-bold ml-4 elemento"
       class="mt-4"
-      label-align-lg="right"
+      label-align-lg="center"
     >
 
-    <i class="fas fa-feather-alt"></i>
+    <i class="fas fa-shipping-fast"></i>
 
       <b-img
         src="https://media.gipys.shoes/2019/04/guess.jpg" 
@@ -95,11 +97,11 @@
 
         <b-form-group 
           id="input-group-3" 
-          label="Food:" 
+          label="afterTaste" 
           label-for="input-3"
           label-cols-sm="2"
           label-size="lg"
-          label-align-sm="right" class="mb-3 mr-5 ml-1 altro"
+          label-align-sm="right" class="mb-2 mr-5 ml-1 altro"
           label-class="font-weight-bold basso"
         >
           <b-form-select
@@ -123,7 +125,7 @@
         <b-form-textarea
           id="textarea"
           v-model="form.text"
-          placeholder="Enter something..."
+          placeholder="Your comment being..."
           size="lg"
           rows="3"
           max-rows="7"
@@ -142,8 +144,6 @@
         </div>
 
     </b-form-group>
-
-    <button>Submit</button>
 
     </b-form>
 
@@ -168,7 +168,7 @@ export default {
 
         },
 
-        foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
+        foods: [{ text: 'Select One', value: null }, 'Sweet', 'Sour', 'Bitter', 'Salty','Umami'],
         show: true
       }
     },
