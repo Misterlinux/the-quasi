@@ -110,7 +110,7 @@ export default {
   .intro .intro-box {
     right: 32%;
     width: 67%;
-    margin-top: -52%;
+    margin-top: -50%;
   }
   .intro .intro-box .intro-text{
     font-size: 0.98rem;
@@ -118,7 +118,6 @@ export default {
   }
   .intro .intro-img{
     margin-top: -40%;
-
   }
   .intro .img{
     height: 100%;

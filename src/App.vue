@@ -250,15 +250,35 @@ getting the content in it */
     font-weight: bold;
     font-style: italic;
   }
+  .imma{
+    width: 55%;
+  }
   .firsto{
     width: 95%;
   }
   .appetize{
     margin-top: 1%;
-    width: 37%;
+    width: 42%;
     padding: 4% 4px;
     line-height: 1;
-    font-size: 1.45rem;
+    font-size: 1.25rem;
+  }
+  .lefto{
+      float: left;
+      padding: 10px 10px 2px 7px;
+      width: 40%;
+  }
+
+  .righto{
+      float: right;
+      padding: 10px 15px 10px 7px;
+      width: 40%;
+  }
+
+  .tutto{
+    float: left;
+    padding: 10px 13px 15px 7px;
+    width: 100%;
   }
   .footer-social-links .footer-bottom{
     margin-top: 8%;
