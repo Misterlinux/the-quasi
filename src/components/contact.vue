@@ -50,7 +50,7 @@
         left 
         thumbnail 
         fluid 
-        src="https://picsum.photos/250/250/?image=54" 
+        src="//live.staticflickr.com/65535/49197710168_014f46e3a2_n.jpg" 
         class="secondon mt-5 ml-1" 
         alt="Cell image"
       >
