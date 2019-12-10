@@ -2,9 +2,8 @@
     <div class="home">
 
 		<div class="home-title arg">
-			<span class="for" style= "font-family: 'Orbitron', sans-serif;font-size: 4.2rem; font-weight: bold;
-				border-bottom: 3px outset #C80815; border-right: 2px outset #C80815;"> 
-				<em> Welcome to the {{date}} </em>
+			<span class="for"> 
+				<em> Welcome to '{{date}} </em>
 			</span>
 		</div>
 
@@ -49,6 +48,9 @@ export default {
 @import '../css/microe.css';
 
 @media (max-width: 580px){
+	.arg{
+		font-size: 3rem; 
+	}
 	.blog-title {
 		font-size: 5vw;
 	}

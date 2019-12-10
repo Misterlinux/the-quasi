@@ -37,12 +37,12 @@
     <i class="fas fa-shipping-fast"></i>
 
       <b-img
-        src="https://media.gipys.shoes/2019/04/guess.jpg" 
+        src="//live.staticflickr.com/65535/49197710168_014f46e3a2_n.jpg" 
         fluid 
         left
         rounded
         alt="principal image"
-        class="primo mt-4"
+        class="primo mt-4 mr-1"
       >
       </b-img>
 

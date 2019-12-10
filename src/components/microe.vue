@@ -2,10 +2,9 @@
     <div class="home">
 
 		<div class="home-title arg">
-			<span class="for" style= "font-family: 'Orbitron', sans-serif;font-size: 5rem; font-weight: bold;"> 
-				<em> welcome to the {{date}} </em>
+			<span class="for" style=""> 
+				<em> Welcome to '{{date}} </em>
 			</span>
-			<span class="sec"> here I guess I should put some desc </span>
 		</div>
 
         <div v-for="entry in entries[date]" :key="entry.id">
@@ -45,10 +44,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 @import '../css/microe.css';
 
 @media (max-width: 580px){
+	.arg{
+		font-size: 3rem; 
+	}
 	.blog-title {
 		font-size: 5vw;
 	}

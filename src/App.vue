@@ -35,7 +35,7 @@
                         <i class="fas fa-house-damage"></i>
                         <i class="fas fa-house-damage"></i>
                       </div>
-                      <div class="name"><span data-text="home">home</span></div>
+                      <div class="name"><span data-text="Home">Home</span></div>
                     </a>
                   </router-link>
                 </li>
@@ -46,7 +46,7 @@
                         <i class="fas fa-photo-video"></i>
                         <i class="fas fa-photo-video"></i>
                       </div>
-                      <div class="name"><span data-text="gallery">gallery</span></div>
+                      <div class="name"><span data-text="Gallery">Gallery</span></div>
                     </a>
                   </router-link>
                 </li>
@@ -57,7 +57,7 @@
                       <i class="fas fa-warehouse"></i>
                       <i class="fas fa-warehouse"></i>
                     </div>
-                    <div class="name"><span data-text="third">third</span></div>
+                    <div class="name"><span data-text="Blogk">Blogk</span></div>
                   </a>
                   </router-link>
                 </li>
@@ -68,7 +68,7 @@
                         <i class="fas fa-house-damage"></i>
                         <i class="fas fa-house-damage"></i>
                       </div>
-                      <div class="name"><span data-text="home">home</span></div>
+                      <div class="name"><span data-text="Contact">Contact</span></div>
                     </a>
                   </router-link>
                 </li>
@@ -155,6 +155,7 @@ export default {
 
 <style>
 @import './css/app.css';
+@import url('https://fonts.googleapis.com/css?family=Arvo:700i&display=swap');
 
 /* I still have to find a way to have different background */
 
@@ -165,7 +166,7 @@ export default {
   display: block;
   height: 100vh;
   width: 5px;
-  background: red;
+  background: #d42b2b;
 }
 
 .titlo{
@@ -196,9 +197,10 @@ export default {
   float: right;
   background: rgba(255, 230, 204, 0.5);
   padding: 6% 4px;
-  font-family: 'Oleo Script', cursive; 
-  font-size: 3rem; 
-  line-height: 1;
+  font-family: 'Arvo', serif;
+  font-size: 2.5rem; 
+  line-height: 1.05;
+  font-style: italic;
 }
 
 #bloggo{
@@ -238,7 +240,7 @@ getting the content in it */
 
 @media (max-width: 580px){
   .thirdOverlayLine {
-    left: 98%;
+    left: 97.5%;
     width: 4px;
   }
   .titlo{
@@ -248,15 +250,17 @@ getting the content in it */
     font-weight: bold;
     font-style: italic;
   }
+  .firsto{
+    width: 95%;
+  }
   .appetize{
     margin-top: 1%;
     width: 37%;
     padding: 4% 4px;
     line-height: 1;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
   }
   .footer-social-links .footer-bottom{
-    display: block;
     margin-top: 8%;
   }
 }

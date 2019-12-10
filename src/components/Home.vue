@@ -22,7 +22,7 @@
             <div class="intro">
               <img class="intro-img img rounded mb-0" :src="image" alt="">
 
-                <button class="intro-img spe lined thick ml-4 mr-4 mb-5 mt-3" >
+                <button class="intro-img spe lined thick ml-0 mr-0 mb-5 mt-3" >
                   Check me out 
                   <i class="fas fa-meteor"></i>
                 </button>
@@ -92,6 +92,9 @@ export default {
 
 /* just to avoid the white space */
 @media (max-width: 580px){
+  .showcase {
+    margin-bottom: 80px;
+  }
   .angle{
     visibility: hidden;
   }
@@ -105,12 +108,17 @@ export default {
     margin-top: -30%;
   }
   .intro .intro-box {
-    right: 42%;
-    width: 55%;
-    margin-top: -50%;
+    right: 32%;
+    width: 67%;
+    margin-top: -52%;
+  }
+  .intro .intro-box .intro-text{
+    font-size: 0.98rem;
+    font-style: italic;
   }
   .intro .intro-img{
     margin-top: -40%;
+
   }
   .intro .img{
     height: 100%;

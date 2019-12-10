@@ -6,7 +6,7 @@
       
       <div class="about-heading-content">
           <div class="col-11 mx-auto">
-            <div class="bg-faded rounded p-5">
+            <div class="bg-faded rounded p-2 p-lg-5">
               <div class="mb-4">
                 Welcome to the
                     <div class="flip mr-1">
@@ -35,8 +35,8 @@
         <router-link to="/intro">
 
         <div class="product-item-title d-flex ">
-          <div class="bg-faded p-4 ml-auto rounded">
-            <div class="p-3">
+          <div class="bg-faded p-lg-4 ml-auto rounded">
+            <div class="p-3 mb-5">
                 <a href="#" class="underlined underlined--reverse">Introduction to the Blogk's backbone</a>
             </div>
           </div>
@@ -76,8 +76,8 @@
       <router-link to="/microe">
 
         <div class="product-item-title d-flex ">
-          <div class="bg-faded p-4 ml-auto rounded">
-            <div class="mb-0">
+          <div class="bg-faded p-lg-4 ml-auto rounded">
+            <div class="p-4 mr-2">
                 <a href="#" class="underlined underlined--reverse">About the Design of things</a>
             </div>
           </div>
@@ -250,9 +250,47 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 
 @import '../css/final.css';
+
+@media (max-width: 580px){
+  .flip {
+    height: 40px;
+    margin-bottom: -10px;
+  }
+  .flip > div > div {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about-heading-content {
+    margin-top: -5rem;
+    font-size: 7vw; 
+  }
+  .heading-img {
+    height: 25vh;
+  }
+  .bg-faded .prin{
+    font-size: 3.5vw;
+    margin-top: -4%;
+  }
+  @keyframes show {
+    0% {margin-top:-150px;}
+    5% {margin-top:-115px;}
+    33% {margin-top:-115px;}
+    38% {margin-top:-55px;}
+    66% {margin-top:-55px;}
+    71% {margin-top: 0px;}
+    99.99% {margin-top: 0px;}
+    100% {margin-top:-150px;}
+  }
+
+  .argument{
+    margin-bottom: 1.5rem;
+  }
+
+}
 
 /*#container {
   color:#999;
@@ -265,46 +303,6 @@ export default {
   bottom:25%;
   display: inline-block;
 } */
-
-.flip {
-  height: 85px;
-  overflow:hidden;
-  display: inline-block;
-  margin-bottom: -15px;
-}
-/* ok so, this defines the dimension of the el*/
-.flip > div > div {
-  color:#f9ebeb;
-  padding: 2px 12px;
-  height: 67px;
-  margin-bottom: 40px;
-  display:inline-block;
-}
-
-.flip div:first-child {
-  animation: show 5s linear infinite;
-}
-
-.flip div div {
-  background:#CD5C5C;
-}
-.flip div:first-child div {
-  background:#a72222;
-}
-.flip div:last-child div {
-  background:#A93226;
-}
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-200px;}
-  33% {margin-top:-200px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top: 5px;}
-  99.99% {margin-top: 5px;}
-  100% {margin-top:-270px;}
-}
 
 </style>
 
