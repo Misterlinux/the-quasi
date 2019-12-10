@@ -15,6 +15,9 @@
 <!-- end of the form -->
 
   <div class="forma">
+
+    <div data-netlify-recaptcha="true"></div>
+
     <b-form @reset="onReset" v-if="show" 
       name="ask-question"
       method="post"
@@ -147,8 +150,6 @@
     </b-form-group>
 
     </b-form>
-
-    <div data-netlify-recaptcha="true"></div>
 
   </div>
 
