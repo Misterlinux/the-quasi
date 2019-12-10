@@ -136,8 +136,7 @@
       </b-form-group>
 
         <div class="d-flex">
-          <div data-netlify-recaptcha="true"></div>
-          
+
           <button class='spe lined thick' type="reset" variant="outline">Clear</button>
 
           <!--<button class='spe dashed thick ml-auto' type="submit" variant="primary">Submit</button>-->
@@ -148,6 +147,8 @@
     </b-form-group>
 
     </b-form>
+
+    <div data-netlify-recaptcha="true"></div>
 
   </div>
 
