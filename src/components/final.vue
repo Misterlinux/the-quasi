@@ -254,6 +254,13 @@ export default {
 
 @import '../css/final.css';
 
+@media (max-width: 410px){
+  .product-item-title {
+      height: 17%;
+      font-size: 1.65rem;
+  }
+}
+
 @media (max-width: 580px){
   .flip {
     height: 40px;
@@ -263,7 +270,6 @@ export default {
     height: 40px;
     margin-bottom: 20px;
   }
-
   .about-heading-content {
     margin-top: -5rem;
     font-size: 7vw; 
@@ -290,6 +296,18 @@ export default {
     margin-bottom: 1.5rem;
   }
 
+}
+
+@media (min-width: 500px) and (max-width: 815px){
+  .heading-img {
+    height: 25vh;
+  }
+  .about-heading-content {
+    margin-top: -6rem;
+  }
+  .product-item-title {
+      font-size: 1.6rem;
+  }
 }
 
 /*#container {

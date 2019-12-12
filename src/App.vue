@@ -65,8 +65,8 @@
                   <router-link class="nav-link" to="/contact">
                     <a href="#">
                       <div class="icon">
-                        <i class="fas fa-house-damage"></i>
-                        <i class="fas fa-house-damage"></i>
+                        <i class="fas fa-mail-bulk"></i>
+                        <i class="fas fa-mail-bulk"></i>
                       </div>
                       <div class="name"><span data-text="Contact">Contact</span></div>
                     </a>
@@ -260,8 +260,8 @@ getting the content in it */
     margin-top: 1%;
     width: 42%;
     padding: 4% 4px;
-    line-height: 1;
-    font-size: 1.25rem;
+    line-height: 1.05;
+    font-size: 1.1rem;
   }
   .lefto{
       float: left;
@@ -282,6 +282,12 @@ getting the content in it */
   }
   .footer-social-links .footer-bottom{
     margin-top: 8%;
+  }
+}
+
+@media (min-width: 590px) and (max-width: 815px){
+  .appetize{
+    font-size: 2.1rem;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-  <div class="lightbox" @click.self="closeLightbox">
+  <div class="lightbox mt-3" @click.self="closeLightbox">
     <img :src="photoUrl(photo.filename)">
     <div class="lightbox-info">
       <div class="lightbox-info-inner">
@@ -62,46 +62,20 @@ export default {
 </script>
 
 <style>
+@import '../css/photo.css';
 
 @media (max-width: 580px){
   .usno{
     display: none;
   }
-}
-
-.lightbox-info-inner .title{
-  font-family: 'Geo', sans-serif; 
-  font-size: 2.5rem; 
-  font-weight: bold;
-}
-
-.lightbox .spe{
-  color: white;
-  margin-left: -0.1rem;
-}
-
-.lightbox {
-    position: relative;
-    padding: 2%;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: grid;
-    grid-template-columns: 5fr 3fr;
-    grid-column-gap: 6%;
-  }
-  .lightbox img {
-    margin: auto;
-    width: 100%;
-    grid-column-start: 1;
-  }
-  .lightbox-info {
-    margin: auto;
+  .lightbox-info-inner .title{
+    font-size: 1.9rem; 
+    line-height: 0.85;
   }
   .lightbox-info-inner {
-    background-color: #FFFFFF;
-    display: inline-block;
-    padding: 2rem;
+    padding: 1rem;
   }
+
+}
+
 </style>

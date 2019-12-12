@@ -79,8 +79,8 @@ import photos from '../statics//gallery.json';
     line-height: 1.1;
   }
   .home-title .sec{
-    padding-top: 1rem;
-    padding-right: 0.5rem;
+    padding-top: 0.4rem;
+    padding-right: 0.55rem;
     line-height: 1;
   }
 }

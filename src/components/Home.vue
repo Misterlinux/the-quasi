@@ -16,7 +16,7 @@
 
   <div class="angle"></div>
 
-    <header class="showcase">
+    <header class="showcase mt-3">
         <div class="container showcase-inner">
 
             <div class="intro">
@@ -29,7 +29,7 @@
 
               <div class="intro-box bg-faded p-3 pb-lg-5 pr-lg-5 pl-lg-5 pt-lg-4 mb-5 rounded">
                 <div class="section-heading mb-1 mb-md-1 mr-4">
-                    <em> 
+                    <em>
                       <span class="tres">Joselt Ozano </span>
                       is here
                     </em>
@@ -41,12 +41,11 @@
                   </div>
                   <div>
                   The <span class="blo">Blogk </span> exist to <span class="sim"> find and gather </span> 
-                  drafts both brief and old,
-                  into a <span class="sim">multidisciplinary porfolio.</span>
+                  drafts both brief and old.
                   Its very <span class="example"><span class="hover hover-1">audience-focused</span></span> 
                   nature sets and highen the standard.
                   <div>
-                  All for a <mark> consistent and interdisciplinary </mark>
+                  All for a <span class="sim"><mark> consistent and interdisciplinary </mark></span>
                   <span class="sim"> model </span>to move swiftly between 
                   <span align="right"> fields and envirodments. </span>
                   </div>
@@ -89,12 +88,7 @@ export default {
 </script>
 
 <style>
-
-/* just to avoid the white space */
-@media (max-width: 580px){
-  .showcase {
-    margin-bottom: 80px;
-  }
+@media (max-width: 455px){
   .angle{
     visibility: hidden;
   }
@@ -105,7 +99,7 @@ export default {
     width: 107%;
   }
   .intro{
-    margin-top: -30%;
+    margin-top: -47%;
   }
   .intro .intro-box {
     right: 32%;
@@ -113,11 +107,11 @@ export default {
     margin-top: -50%;
   }
   .intro .intro-box .intro-text{
-    font-size: 0.98rem;
+    font-size: 0.9rem;
     font-style: italic;
   }
   .intro .intro-img{
-    margin-top: -40%;
+    margin-top: -35%;
   }
   .intro .img{
     height: 100%;
@@ -144,12 +138,47 @@ export default {
   .titolo{
     font-size: 37px;
     margin-left: 3%;
-    font-size: bold;
   }
   .section-heading{
     line-height: 1.3;
   }
 }
+
+@media (max-width: 367px){
+  .showcase{
+    margin-bottom: 37%;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 373px){
+  .showcase{
+    margin-bottom: 24%;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 380px){
+  .showcase{
+    margin-bottom: 12%;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 455px){
+  .showcase {
+    margin-bottom: 0%;
+  }
+}
+
+/* about the tablet kinda */
+@media (min-width: 500px) and (max-width: 815px){
+  .showcase {
+    margin-bottom: 25%;
+  }
+  .intro .intro-box {
+    margin-top: -2%;
+  }
+}
+
+
 
 a:hover {
   text-decoration: none;

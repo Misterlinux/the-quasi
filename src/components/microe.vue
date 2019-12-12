@@ -64,4 +64,11 @@ export default {
 		padding: 15px 20px;
 	}
 }
+
+@media (min-width: 590px) and (max-width: 815px){
+	.blog-title {
+		font-size: 4vw;
+	}
+}
+
 </style>
