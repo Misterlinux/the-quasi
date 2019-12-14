@@ -162,7 +162,7 @@ export default {
   }
 }
 
-@media (min-width: 411px) and (max-width: 455px){
+@media (min-width: 405px) and (max-width: 455px){
   .showcase {
     margin-bottom: 0%;
   }

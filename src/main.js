@@ -11,8 +11,6 @@ import VuePageTransition from 'vue-page-transition'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import VueGallery from 'vue-gallery';
-
 import routes from './routes';
 
 Vue.use(VS2)
@@ -20,8 +18,6 @@ Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.use(VuePageTransition)
 Vue.component('vue-headful', vueHeadful);
-
-Vue.component('carol', VueGallery);
 
 Vue.config.productionTip = false
 

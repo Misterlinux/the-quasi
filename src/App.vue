@@ -1,8 +1,8 @@
 <template>
   <div class="app">
         <vue-headful
-            title="Title from vue-headful"
-            description="Description from vue-headful"
+            title="AZ' Blogk"
+            description="About what it works"
         />
 
         <script2 src="https://kit.fontawesome.com/f107dae9c2.js"></script2>
