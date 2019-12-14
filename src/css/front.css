@@ -36,7 +36,7 @@ and neither does the text-align*/
 .intro .intro-box {
   right: 50%;
 	width: 45%;
-  margin-top: 2%;
+  /*margin-top: 2%;*/
 
 	position: absolute;
 }
