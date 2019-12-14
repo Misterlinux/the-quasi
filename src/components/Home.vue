@@ -164,7 +164,10 @@ export default {
 
 @media (min-width: 381px) and (max-width: 455px){
   .showcase {
-    margin-bottom: 30%;
+    margin-bottom: 0%;
+  }
+  .titolo{
+    margin-bottom: 5%;
   }
 }
 
