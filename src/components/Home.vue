@@ -162,10 +162,14 @@ export default {
   }
 }
 
+/* this is the target*/
 @media (min-width: 381px) and (max-width: 455px){
   .showcase {
     margin-bottom: 0%;
     margin-top: 200px;
+  }
+  .titolo{
+    margin-bottom: 100px;
   }
 }
 
