@@ -271,11 +271,14 @@ export default {
 }
 
 @media (min-width: 421px) and (max-width: 455px){
+  .intro .intro-box {
+    margin-top: -45%;
+  }
   .showcase {
     margin-bottom: 0%;
   }
   .titolo{
-    margin-bottom: 4%;
+    margin-bottom: 0%;
   }
   .intro .img{
     height: 170%;
