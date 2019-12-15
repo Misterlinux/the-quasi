@@ -305,7 +305,6 @@ getting the content in it */
 		padding: 1rem 2.5rem;
 		background: transparent;
 		outline: none;
-		font-size: 1.2vw;
     z-index: 0;
 
 		&::after,

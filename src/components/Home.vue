@@ -2,9 +2,9 @@
   <div class="home">
     <br>
     <br>
-    <a class="titolo underlined underlined--offset">
-      <em>Welcome to the Block</em>
-    </a>
+      <a class="titolo underlined underlined--offset">
+        <em>Welcome to the Block</em>
+      </a>
 
     <!-- they are the sam but one as a line border and onw without the shadow
       <h2>
@@ -20,9 +20,9 @@
         <div class="container showcase-inner">
 
             <div class="intro">
-              <img class="intro-img img rounded mb-0" :src="image" alt="">
+              <img class="intro-img img rounded " :src="image" alt="">
 
-                <button class="intro-img spe lined thick ml-0 mr-0 mb-5 mt-3" >
+                <button class="intro-img spe lined thick ml-0 mr-0 mb-0 mt-0" >
                   Check me out 
                   <i class="fas fa-meteor"></i>
                 </button>
@@ -144,46 +144,143 @@ export default {
   }
 }
 
-@media (max-width: 367px){
-  .showcase{
-    margin-bottom: 37%;
-  }
-}
-
-@media (min-width: 368px) and (max-width: 373px){
-  .showcase{
-    margin-bottom: 24%;
-  }
-}
-
-@media (min-width: 374px) and (max-width: 380px){
-  .showcase{
-    margin-bottom: 12%;
-  }
-}
-
-/* this is the target*/
-@media (min-width: 381px) and (max-width: 455px){
-  .showcase {
-    margin-bottom: 0%;
-    margin-top: 200px;
-  }
+@media (min-width: 500px) and (max-width: 600px){
   .titolo{
-    margin-bottom: 100px;
+    font-size: 40px;
   }
-}
-
-/* about the tablet kinda */
-@media (min-width: 500px) and (max-width: 815px){
+  .intro .intro-box {
+    right: 30%;
+    width: 68%;
+  }
+  .intro .intro-box .intro-button {
+    font-size: 2.8vw;
+    width: 100%;
+    left: 60%;
+    bottom: -2rem;
+  }
+  .angle{
+    visibility: hidden;
+  }
   .showcase {
-    margin-bottom: 25%;
+    margin-bottom: 35%;
   }
   .intro .intro-box {
     margin-top: -2%;
   }
 }
 
+@media (min-width: 601px) and (max-width: 700px){
+  .titolo{
+    font-size: 45px;
+  }
+  .intro .intro-box {
+    right: 30%;
+    width: 68%;
+  }
+  .intro .intro-box .intro-button {
+    font-size: 2.8vw;
+    width: 100%;
+    left: 55%;
+    bottom: -2rem;
+  }
+  .showcase {
+    margin-bottom: 25%;
+  }
+  .angle{
+    visibility: hidden;
+  }
+}
 
+@media (min-width: 701px) and (max-width: 815px){
+  .titolo{
+    font-size: 50px;
+  }
+  .intro .intro-box {
+    right: 30%;
+    width: 68%;
+  }
+  .intro .intro-box .intro-button {
+    font-size: 2.4vw;
+    width: 100%;
+    left: 55%;
+    bottom: -2rem;
+  }
+  .angle{
+    visibility: hidden;
+  }
+  .showcase {
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 367px){
+  .showcase{
+    margin-bottom: 37%;
+  }
+  .titolo{
+    margin-bottom: -8%;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 373px){
+  .showcase{
+    margin-bottom: 28%;
+  }
+  .titolo{
+    margin-bottom: -4%;
+  }
+  .intro .img{
+    height: 110%;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 380px){
+  .showcase{
+    margin-bottom: 13%;
+  }
+  .titolo{
+    margin-bottom: -5%;
+  }
+  .intro .img{
+    height: 120%;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 400px){
+  .showcase {
+    margin-bottom: 10%;
+  }
+  .titolo{
+    margin-bottom: -4%;
+  }
+  .intro .img{
+    height: 120%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 420px){
+  .showcase {
+    margin-bottom: 6%;
+  }
+  .titolo{
+    margin-bottom: 0%;
+  }
+  .intro .img{
+    height: 120%;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 455px){
+  .showcase {
+    margin-bottom: 0%;
+  }
+  .titolo{
+    margin-bottom: 4%;
+  }
+  .intro .img{
+    height: 170%;
+  }
+}
 
 a:hover {
   text-decoration: none;
