@@ -1,8 +1,4 @@
-/* more general css properties */
-
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   
@@ -22,14 +18,14 @@
     width: 100%;
     height: auto;
     padding: 1rem 0;
-    background: linear-gradient(to bottom right,rgba(156, 76, 76, 0.7) 0%, rgba(179, 99, 99, 0.7) 30%, rgba(179, 99, 99, 0.7) 70%, rgba(156, 76, 76, 0.7) 100%), url("../assets/minicity.jpg");
+    background: linear-gradient(to bottom right,rgba(98, 4, 10, 0.7) 0%, rgb(171, 7, 18, 0.4) 30%, rgb(171, 7, 18, 0.4) 70%, rgba(98, 4, 10, 0.7) 100%), url("../assets/mezzogi.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
   }
 
 .navbar{  
-    background: #a72222;
+    background: #ab0712;
 }
 
 .logo{
@@ -136,7 +132,7 @@
 .footer{
     padding-top: 15px;
     width: 100%;
-    background: #a72222;
+    background: #ab0712;
     color: #fff;
 }
 .footer-title{
@@ -203,13 +199,13 @@
   background:  white;
 }
 .footer-social-links a:hover{
-	background: #ff304d;
+	background: #e6001f;
 }
 
 .footer-bottom a .fab{
     margin-top: 18%;
     font-size: 42px;
-    color: #ff304d;
+    color: #c40815;
 }
 
 .footer-bottom1 a .fab{

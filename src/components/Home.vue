@@ -2,7 +2,8 @@
   <div class="home">
     <br>
     <br>
-      <a class="titolo underlined underlined--offset">
+      <a class="titolo underlined underlined--offset"
+        style="color: #62040a">
         <em>Welcome to the Block</em>
       </a>
 
@@ -296,7 +297,7 @@ a:hover {
   height: 2rem;
   width: 10rem;
   border-bottom: 6px inset #CD5C5C;
-  border-right: 4px inset #A93226;
+  border-right: 4px inset #c40815;
   -moz-transform: skew(-45deg);
   -webkit-transform: skew(-45deg);
   transform: skew(35deg);
@@ -413,7 +414,7 @@ and Down here we have shadown line*/
   /*flex: 1;*/
   line-height: 1.1;
   text-decoration: none;
-  background-image: linear-gradient(to right, #a72222 0, #F3A9A3 200%);
+  background-image: linear-gradient(to right, rgba(171, 7, 18, 0.5) 0, rgba(249, 108, 118, 0.6) 200%);
   background-position: 0 1.2em;
   background-size: 0 100%;
   background-repeat: no-repeat;

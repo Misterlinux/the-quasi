@@ -35,8 +35,8 @@
         <router-link to="/intro">
 
         <div class="product-item-title d-flex ">
-          <div class="bg-faded p-lg-4 ml-auto rounded">
-            <div class="p-3 mb-5">
+          <div class="bg-faded p-lg-2 ml-auto rounded">
+            <div class="p-3 mb-5 item-title">
                 <a href="#" class="underlined underlined--reverse">Introduction to the Blogk's backbone</a>
             </div>
           </div>
@@ -76,8 +76,8 @@
       <router-link to="/microe">
 
         <div class="product-item-title d-flex ">
-          <div class="bg-faded p-lg-4 ml-auto rounded">
-            <div class="p-4 mr-2">
+          <div class="bg-faded p-lg-2 ml-auto rounded">
+            <div class="p-3 mr-2">
                 <a href="#" class="underlined underlined--reverse">About the Design of things</a>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default {
 
 @import '../css/final.css';
 
-@media (max-width: 410px){
+@media (max-width: 455px){
   .product-item-title {
       height: 17%;
       font-size: 1.65rem;
