@@ -9,7 +9,6 @@
     position: relative;
     width: 100%;
     min-height: 30rem;
-
 }
 
 .home{
@@ -18,7 +17,7 @@
     width: 100%;
     height: auto;
     padding: 1rem 0;
-    background: linear-gradient(to bottom right,rgba(98, 4, 10, 0.7) 0%, rgb(171, 7, 18, 0.4) 30%, rgb(171, 7, 18, 0.4) 70%, rgba(98, 4, 10, 0.7) 100%), url("../assets/mezzogi.jpg");
+    background: linear-gradient(to bottom right,rgba(98, 4, 10, 0.8) 0%, rgb(171, 7, 18, 0.25) 30%, rgb(171, 7, 18, 0.25) 70%, rgba(98, 4, 10, 0.8) 100%), url("../assets/giova.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

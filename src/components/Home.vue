@@ -215,8 +215,11 @@ export default {
 }
 
 @media (max-width: 367px){
+  .intro .intro-box {
+    margin-top: -60%;
+  }
   .showcase{
-    margin-bottom: 37%;
+    margin-bottom: 40%;
   }
   .titolo{
     margin-bottom: -8%;
@@ -236,8 +239,11 @@ export default {
 }
 
 @media (min-width: 374px) and (max-width: 380px){
+  .intro .intro-box {
+    margin-top: -55%;
+  }
   .showcase{
-    margin-bottom: 13%;
+    margin-bottom: 15%;
   }
   .titolo{
     margin-bottom: -5%;
@@ -248,8 +254,11 @@ export default {
 }
 
 @media (min-width: 381px) and (max-width: 400px){
+  .intro .intro-box {
+    margin-top: -45%;
+  }
   .showcase {
-    margin-bottom: 10%;
+    margin-bottom: 14%;
   }
   .titolo{
     margin-bottom: -4%;
@@ -260,8 +269,11 @@ export default {
 }
 
 @media (min-width: 401px) and (max-width: 420px){
+  .intro .intro-box {
+    margin-top: -55%;
+  }
   .showcase {
-    margin-bottom: 6%;
+    margin-bottom: 8%;
   }
   .titolo{
     margin-bottom: 0%;
@@ -273,10 +285,10 @@ export default {
 
 @media (min-width: 421px) and (max-width: 455px){
   .intro .intro-box {
-    margin-top: -45%;
+    margin-top: -40%;
   }
   .showcase {
-    margin-bottom: 0%;
+    margin-bottom: 10%;
   }
   .titolo{
     margin-bottom: 0%;
@@ -414,7 +426,7 @@ and Down here we have shadown line*/
   /*flex: 1;*/
   line-height: 1.1;
   text-decoration: none;
-  background-image: linear-gradient(to right, rgba(171, 7, 18, 0.5) 0, rgba(249, 108, 118, 0.6) 200%);
+  background-image: linear-gradient(to right, rgba(171, 7, 18, 0.7) 0, rgba(249, 213, 210, 0.3) 110%);
   background-position: 0 1.2em;
   background-size: 0 100%;
   background-repeat: no-repeat;

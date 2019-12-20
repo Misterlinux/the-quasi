@@ -8,6 +8,8 @@ import Blogs from '@/statics/blogs'
 import contact from '@/components/contact'
 import into from '@/components/intro'
 import micro from '@/components/microe'
+import macro from '@/components/macroe'
+import disegno from '@/components/design'
 
 const blogRoutes = Object.keys(Blogs).map(section => {
     const children = Blogs[section].map(child => ({
@@ -32,6 +34,8 @@ const routes= [
       {path: '/final', name: 'final',component: home},
       {path: '/microe', name: 'microeconomia', component: micro},
       {path: '/intro', name: 'introduzione', component: into},
+      {path: '/macro', name: 'macroeconomia', component: macro},
+      {path: '/design', name: 'designo', component: disegno},
       ...blogRoutes
 ]
 

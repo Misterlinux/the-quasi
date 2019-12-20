@@ -77,13 +77,13 @@
 
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-lg-2 ml-auto rounded">
-            <div class="p-3 mr-2">
-                <a href="#" class="underlined underlined--reverse">About the Design of things</a>
+            <div class="p-3 mr-2 mb-5">
+                <a href="#" class="underlined underlined--reverse">About the Micro and the Economy</a>
             </div>
           </div>
         </div>
 
-        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/des.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/microe3.jpg" alt="">
 
       </router-link>
         <div class="product-item-description d-flex ml-auto">
@@ -92,13 +92,13 @@
               <div class="">December | 2019</div>
               <div class=""> core </div>
             </div>
-            <div class="h4"><em><b>Design</b></em></div>
-            the world is based on mechanics and being able to developt them as 
-            dynamics means having the world in a pocket. or at least being ablr to create them
-            each any single part.
-
+            <div class="h4"><em><b>Microeconomy</b></em></div>
+            <div>
+              if the economy is a machinery this is about each singular gear.
+            </div>
+              For those interested on how money flows between economic actors
+              and how they settle the market's stage
             
-
             <footer class="blockquote-footer text-right">about the core</footer>
 
           </div>
@@ -108,46 +108,36 @@
 <!-- hello there -->
 
       <div class="col-md-6 argument">
-        <router-link to="/microe">
+        <router-link to="/macro">
 
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
             <div class="mb-0">
-                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff</a>
-                lets see
+                <a href="#" class="underlined underlined--reverse">About how Macro can the economy be</a>
             </div>
           </div>
         </div>
 
-        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/snow.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/macroe1.jpg" alt="">
 
         </router-link>
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
-            <span class="mb-0">We take 
-              <em>pride in our work, and it shows.</em> 
-              Every time you order a beverage from us, 
-              <b>we guarantee that it will be coming back for more.</b>
-              now check out the 
-              <mark>part highlighted</mark> 
-              or just the
-              <del> deleted part </del> 
-              and also the idea of 
-              <u> having something underlined </u> 
-              and also we can work with 
-              <strong> bold text </strong>
-              or 
-              <small> the smaller part </small>
-              and what about the abreviation is
-              <abbr title="smaller texto">like</abbr> 
-
-              <div class="d-flex ">
-                <div class="p-2 w-100">this is what</div>
-                <div class="p-2 flex-shrink-1">maximixe one her 2</div>
-              </div>
-
-              </span>
-            <span class="lead"> another text to check the justify </span>
+            <div class="d-flex justify-content-between">
+              <div class="">December | 2019</div>
+              <div class=""> core </div>
+            </div>
+            <span class="mb-0">
+              <div class="h4"><em><b>Macroeconomy</b></em></div>
+                History, sociology and finances.Those are the subjects that are required in 
+                order to get the when, who and how of their lowest common denominator;
+                <div>
+                the Economy.
+                </div>
+                <div>
+                for those who dont mind peeking an eye at the affairs of others.
+                </div>
+            </span>
 
             <footer class="blockquote-footer text-right">Someone famous in <cite title="what ya search?">Source Title</cite></footer>
           </div>
@@ -157,48 +147,34 @@
 <!-- what about -->
 
       <div class="col-md-6 argument">
-        <router-link to="/microe">
+        <router-link to="/design">
 
         <div class="product-item-title d-flex ">
           <div class="bg-faded p-4 ml-auto rounded">
             <div class="mb-0">
-                <a href="#" class="underlined underlined--reverse">Microeconomics &amp; and stuff</a>
-                lets see
+                <a href="#" class="underlined underlined--reverse">About the Design of things</a>
             </div>
           </div>
         </div>
 
-        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/snow.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid " src="../assets/des.jpg" alt="">
 
         </router-link>
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
-            <span class="mb-0">We take 
-              <em>pride in our work, and it shows.</em> 
-              Every time you order a beverage from us, 
-              <b>we guarantee that it will be coming back for more.</b>
-              now check out the 
-              <mark>part highlighted</mark> 
-              or just the
-              <del> deleted part </del> 
-              and also the idea of 
-              <u> having something underlined </u> 
-              and also we can work with 
-              <strong> bold text </strong>
-              or 
-              <small> the smaller part </small>
-              and what about the abreviation is
-              <abbr title="smaller texto">like</abbr> 
+              <span class="mb-0">
+                <div class="d-flex justify-content-between">
+                  <div class="">december | 2019</div>
+                  <div class=""> standard </div>
+                </div>
+                  <div class="h4"><em><b>Design</b></em></div>
+                  the world is based on mechanics and being able to developt them as 
+                  dynamics means having the world in a pocket. or at least being ablr to create them
+                  each any single part.
 
-              <div class="d-flex ">
-                <div class="p-2 w-100">this is what</div>
-                <div class="p-2 flex-shrink-1">maximixe one her 2</div>
-              </div>
-
+                  
+                  <footer class="blockquote-footer text-right">The Blogk</footer>
               </span>
-            <span class="lead"> another text to check the justify </span>
-
-            <footer class="blockquote-footer text-right">Someone famous in <cite title="what ya search?">Source Title</cite></footer>
           </div>
         </div>
 
