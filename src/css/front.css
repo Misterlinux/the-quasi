@@ -38,8 +38,8 @@ and neither does the text-align*/
 	width: 45%;
   margin-top: 2%;
 
-  border-right: inset 5px #ab0712;
-  border-bottom: outset 5px #e6001f;
+  border-right: inset 3px #ab0712;
+  border-bottom: inset 5px rgba(230, 115, 0, 0.7);
 	position: absolute;
 }
 

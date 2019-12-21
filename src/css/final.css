@@ -13,7 +13,7 @@
   font-style: italic;
 
   border-left: 5px inset #a72222;
-  border-top: 5px outset #ab0712;
+  border-top: 5px outset rgba(179, 89, 0, 0.8);
 }
 
 .argument{
@@ -37,7 +37,7 @@
   max-width: 90%;
   left: 2.5%;
 
-  border-right: 4px inset #ab0712;
+  border-right: 4px inset rgba(216, 135, 65, 0.8);
   border-bottom: 2px outset #a72222;
 }
 

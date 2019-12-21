@@ -3,7 +3,7 @@
     <br>
     <br>
       <a class="titolo underlined underlined--offset"
-        style="color: #62040a">
+        style="color: rgba(237, 130, 120, 0.7)">
         <em>Welcome to the Block</em>
       </a>
 
@@ -21,7 +21,7 @@
         <div class="container showcase-inner">
 
             <div class="intro">
-              <img class="intro-img img rounded " :src="image" alt="">
+              <img class="intro-img img rounded" :src="image" alt="">
 
                 <button class="intro-img spe lined thick ml-0 mr-0 mb-0 mt-0" >
                   Check me out 
@@ -89,7 +89,7 @@ export default {
 </script>
 
 <style>
-@media (max-width: 455px){
+@media (max-width: 530px){
   .angle{
     visibility: hidden;
   }
@@ -145,7 +145,7 @@ export default {
   }
 }
 
-@media (min-width: 500px) and (max-width: 600px){
+@media (min-width: 700px) and (max-width: 800px){
   .titolo{
     font-size: 40px;
   }
@@ -170,7 +170,7 @@ export default {
   }
 }
 
-@media (min-width: 601px) and (max-width: 700px){
+@media (min-width: 801px) and (max-width: 900px){
   .titolo{
     font-size: 45px;
   }
@@ -192,7 +192,7 @@ export default {
   }
 }
 
-@media (min-width: 701px) and (max-width: 815px){
+@media (min-width: 901px) and (max-width: 1015px){
   .titolo{
     font-size: 50px;
   }
@@ -214,54 +214,36 @@ export default {
   }
 }
 
-@media (max-width: 367px){
+@media (max-width: 380px){
   .intro .intro-box {
-    margin-top: -60%;
+    margin-top: -45%;
   }
   .showcase{
-    margin-bottom: 40%;
+    margin-bottom: 45%;
   }
   .titolo{
     margin-bottom: -8%;
   }
-}
-
-@media (min-width: 368px) and (max-width: 373px){
-  .showcase{
-    margin-bottom: 28%;
-  }
-  .titolo{
-    margin-bottom: -4%;
-  }
-  .intro .img{
-    height: 110%;
-  }
-}
-
-@media (min-width: 374px) and (max-width: 380px){
-  .intro .intro-box {
-    margin-top: -55%;
-  }
-  .showcase{
-    margin-bottom: 15%;
-  }
-  .titolo{
-    margin-bottom: -5%;
+  .intro .intro-img{
+    margin-top: -35%;
   }
   .intro .img{
     height: 120%;
   }
 }
 
-@media (min-width: 381px) and (max-width: 400px){
+@media (min-width: 380px) and (max-width: 400px){
   .intro .intro-box {
-    margin-top: -45%;
+    margin-top: -50%;
   }
-  .showcase {
-    margin-bottom: 14%;
+  .showcase{
+    margin-bottom: 20%;
   }
   .titolo{
     margin-bottom: -4%;
+  }
+  .intro .intro-img{
+    margin-top: -35%;
   }
   .intro .img{
     height: 120%;
@@ -270,31 +252,73 @@ export default {
 
 @media (min-width: 401px) and (max-width: 420px){
   .intro .intro-box {
-    margin-top: -55%;
+    margin-top: -45%;
   }
-  .showcase {
-    margin-bottom: 8%;
+  .showcase{
+    margin-bottom: 15%;
   }
   .titolo{
-    margin-bottom: 0%;
+    margin-bottom: -5%;
+  }
+  .intro .intro-img{
+    margin-top: -40%;
   }
   .intro .img{
-    height: 120%;
+    height: 140%;
   }
 }
 
 @media (min-width: 421px) and (max-width: 455px){
   .intro .intro-box {
-    margin-top: -40%;
+    margin-top: -48%;
   }
   .showcase {
     margin-bottom: 10%;
   }
   .titolo{
-    margin-bottom: 0%;
+    margin-bottom: -4%;
+  }
+  .intro .intro-img{
+    margin-top: -40%;
   }
   .intro .img{
-    height: 170%;
+    height: 200%;
+  }
+}
+
+@media (min-width: 456px) and (max-width: 500px){
+  .intro .intro-box {
+    margin-top: -50%;
+  }
+  .showcase {
+    margin-bottom: -7%;
+  }
+  .titolo{
+    margin-bottom: 0%;
+  }
+  .intro .intro-img{
+    margin-top: -45%;
+  }
+  .intro .img{
+    height: 230%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 530px){
+  .intro .intro-box {
+    margin-top: -53%;
+  }
+  .showcase {
+    margin-bottom: -7%;
+  }
+  .titolo{
+    margin-bottom: 0%;
+  }
+  .intro .intro-img{
+    margin-top: -50%;
+  }
+  .intro .img{
+    height: 270%;
   }
 }
 
@@ -440,7 +464,7 @@ and Down here we have shadown line*/
   &--offset {
     background-position: 0 0em;
     //didn't find another solution than mask the underline shape by a box shadow with the same color than the bg
-    box-shadow: inset 0 -0.03em 0 0 #F3A9A3 ;
+    box-shadow: inset 0 -0.03em 0 0 #ab0712 ;
   }
   &--gradient {
     background-position: 0 -0.1em;
