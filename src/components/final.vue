@@ -189,19 +189,19 @@
     </button>
 
     <div class="example">
-      <span class="hover hover-1">This underline goes left to right is this YELLOW</span>
+      <span class="hover hover-1">underline effects</span>
     </div>
 
     <div class="example">
-      <span class="hover hover-2">This underline goes right to left</span>
+      <span class="hover hover-2">I still have to use</span>
     </div>
 
     <div class="example">
-      <span class="hover hover-3">This underline goes outwards</span>
+      <span class="hover hover-3">on the different</span>
     </div>
 
     <div class="example">
-      <span class="hover hover-4">This underline goes inwards</span>
+      <span class="hover hover-4">spaces</span>
     </div>  
   
   </div>

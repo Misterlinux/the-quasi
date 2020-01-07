@@ -3,7 +3,7 @@
     <br>
     <br>
       <a class="titolo underlined underlined--offset"
-        style="color: rgba(237, 130, 120, 0.7)">
+        style="color:	rgb(128, 0, 8)">
         <em>Welcome to the Block</em>
       </a>
 
@@ -328,7 +328,7 @@ a:hover {
 
 .angle{
   position: relative;
-  margin-left: 44%;
+  margin-left: 48%;
   bottom: 1.9rem;
   height: 2rem;
   width: 10rem;
@@ -450,7 +450,7 @@ and Down here we have shadown line*/
   /*flex: 1;*/
   line-height: 1.1;
   text-decoration: none;
-  background-image: linear-gradient(to right, rgba(171, 7, 18, 0.7) 0, rgba(249, 213, 210, 0.3) 110%);
+  background-image: linear-gradient(to right, rgba(171, 7, 18, 0.75) 0, rgba(205, 92, 92, 0.5) 110%);
   background-position: 0 1.2em;
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -464,7 +464,7 @@ and Down here we have shadown line*/
   &--offset {
     background-position: 0 0em;
     //didn't find another solution than mask the underline shape by a box shadow with the same color than the bg
-    box-shadow: inset 0 -0.03em 0 0 #ab0712 ;
+    box-shadow: inset 0 -0.03em 0 0 rgb(102, 0, 7);
   }
   &--gradient {
     background-position: 0 -0.1em;

@@ -233,6 +233,12 @@ export default {
   box-sizing: border-box;
 }
 
+.codice{
+  background-color: black;
+  color: rgb(251, 203, 106);
+  font-weight: bold;
+}
+
 /* ok so down here we get the animation for 
 getting the content in it */
 
