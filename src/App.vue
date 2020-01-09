@@ -182,7 +182,7 @@ export default {
 }
 
 .imma{
-  margin-left: 1.5%;
+  margin-left: 2.5%;
   margin-top: 1%;
   width: 60%;
   max-height: 360px;
@@ -205,11 +205,24 @@ export default {
 
 #bloggo{
     margin-left: 3%;
+    padding-left: 3%;
     margin-top: 1%;
+    padding-top: 2%;
+    padding-right: 3%;
     width: 88%;
     background: rgba(255, 230, 204, 0.4);
     display: block;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Changa', sans-serif;
+}
+
+.paragraph{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 25%;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
 }
 
 .lefto{
@@ -234,9 +247,10 @@ export default {
 }
 
 .codice{
-  background-color: black;
+  background-color:rgb(65, 0, 0);
   color: rgb(251, 203, 106);
   font-weight: bold;
+  font-size: 17px;
 }
 
 /* ok so down here we get the animation for 
