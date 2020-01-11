@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
 
               <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item" >
                   <router-link class="nav-link" to="/">
                     <span class="sr-only">(current)</span>
                   </router-link>
                 </li>
                 <li class="nav-item text-white-50 mr-4">
-                  <router-link class="nav-link" to="/">   
+                  <router-link class="nav-link" to="/" data-toggle="collapse" data-target=".navbar-collapse.show">   
                     <a href="#">
                       <div class="icon">
                         <i class="fas fa-house-damage"></i>
@@ -39,7 +39,7 @@
                     </a>
                   </router-link>
                 </li>
-                <li class="nav-item mr-4">
+                <li class="nav-item mr-4" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <router-link class="nav-link" to="/gallery">
                     <a href="#">
                       <div class="icon">
@@ -50,7 +50,7 @@
                     </a>
                   </router-link>
                 </li>
-                <li class="nav-item mr-4">
+                <li class="nav-item mr-4" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <router-link class="nav-link" to="/final">
                   <a href="#">
                     <div class="icon">
@@ -61,7 +61,7 @@
                   </a>
                   </router-link>
                 </li>
-                <li class="nav-item mr-4">
+                <li class="nav-item mr-4" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <router-link class="nav-link" to="/contact">
                     <a href="#">
                       <div class="icon">
@@ -294,7 +294,13 @@ getting the content in it */
       padding: 10px 15px 10px 7px;
       width: 40%;
   }
-
+  .paragraph{
+    margin-left: 10%;
+  }
+  .codice{
+    font-size: 14px;
+    overflow: auto;
+  }
   .tutto{
     float: left;
     padding: 10px 13px 15px 7px;

@@ -1,10 +1,11 @@
 .blog-back { 
-    background: url("../assets/gigl.jpg");
+    background: linear-gradient(to bottom right,rgb(184, 20, 31),rgb(194, 84, 10));
 	color: black;
     width: 100%;
     padding: 15px 50px 80px;
     margin: 30px 0px;
     height: 80px;
+    margin-left: 2%;
 }
 
 .blog-title {
@@ -35,6 +36,7 @@
   display: block;
   margin: -50px auto 0;
   height: 87%; 
+  margin-left: 3.3%;
 }
 
 .desc-text { 

@@ -139,6 +139,7 @@ export default {
   .titolo{
     font-size: 37px;
     margin-left: 3%;
+    /*background-color: rgba(171, 7, 18, 0.3);*/
   }
   .section-heading{
     line-height: 1.3;
@@ -328,7 +329,7 @@ a:hover {
 
 .angle{
   position: relative;
-  margin-left: 48%;
+  margin-left: 44%;
   bottom: 1.9rem;
   height: 2rem;
   width: 10rem;
